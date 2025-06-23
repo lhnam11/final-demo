@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Automation Suite">
+	<listeners>
+		<listener class-name="io.qameta.allure.testng.AllureTestNg" />
+	</listeners>
+	<test name="Run All Tests">
+		<classes>
+			 <class name="com.nam.qa.practice.SignInTest" />
+			<class name="com.nam.qa.practice.SortProductTest" />
+			<class name="com.nam.qa.practice.ProductTest" /> 
+			<class name="com.nam.qa.practice.CartTest" />
+			<class name="com.nam.qa.practice.CheckOutTest" />
+			<class name="com.nam.qa.practice.EndToEndTest" />
+			<class name="com.nam.qa.practice.SearchTest" />
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 5 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Automation_Suite" class="navigator-link">
+              <span class="suite-name border-failed">Automation Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Automation_Suite" class="navigator-link ">
+                    <span>D:\FinalProject\FinalProject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Automation_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Automation_Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Automation_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Automation_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Automation_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Automation_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">51 methods, 5 failed,   46 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Automation_Suite" class="hide-methods failed suite-Automation_Suite"> (hide)</a> <!-- hide-methods failed suite-Automation_Suite -->
+                      <a href="#" panel-name="suite-Automation_Suite" class="show-methods failed suite-Automation_Suite"> (show)</a> <!-- show-methods failed suite-Automation_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Automation_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CheckOutTest" class="method navigator-link" hash-for-method="verifyCannotCheckoutWithEmptyCart">verifyCannotCheckoutWithEmptyCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SignInTest" class="method navigator-link" hash-for-method="verifyLoginWithVisualUser_ShowsBrokenImage">verifyLoginWithVisualUser_ShowsBrokenImage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.ProductTest" class="method navigator-link" hash-for-method="verifyNavigationFromTileToDetailPage">verifyNavigationFromTileToDetailPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.ProductTest" class="method navigator-link" hash-for-method="verifyNavigationImgFromToDetailPage">verifyNavigationImgFromToDetailPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SignInTest" class="method navigator-link" hash-for-method="verifyProblemUserLogin_ShowsBrokenImages">verifyProblemUserLogin_ShowsBrokenImages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Automation_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Automation_Suite" class="hide-methods passed suite-Automation_Suite"> (hide)</a> <!-- hide-methods passed suite-Automation_Suite -->
+                      <a href="#" panel-name="suite-Automation_Suite" class="show-methods passed suite-Automation_Suite"> (show)</a> <!-- show-methods passed suite-Automation_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Automation_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.ProductTest" class="method navigator-link" hash-for-method="ProductListisDisplayed">ProductListisDisplayed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.ProductTest" class="method navigator-link" hash-for-method="verifyAddtoCartFromDetailPage">verifyAddtoCartFromDetailPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.ProductTest" class="method navigator-link" hash-for-method="verifyAddtoCartFromProductPage">verifyAddtoCartFromProductPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CheckOutTest" class="method navigator-link" hash-for-method="verifyButtonBackHomeNavigatesBackToProductPage">verifyButtonBackHomeNavigatesBackToProductPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.ProductTest" class="method navigator-link" hash-for-method="verifyButtonBackToProductFromDetailPage">verifyButtonBackToProductFromDetailPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CartTest" class="method navigator-link" hash-for-method="verifyButtonCheckout">verifyButtonCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CartTest" class="method navigator-link" hash-for-method="verifyButtonContinueShopping">verifyButtonContinueShopping</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CheckOutTest" class="method navigator-link" hash-for-method="verifyCancelButtonNavigatesBackToCartPage">verifyCancelButtonNavigatesBackToCartPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.ProductTest" class="method navigator-link" hash-for-method="verifyCartIcon">verifyCartIcon</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CheckOutTest" class="method navigator-link" hash-for-method="verifyErrorMessageWhenFirstNameIsEmpty">verifyErrorMessageWhenFirstNameIsEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CheckOutTest" class="method navigator-link" hash-for-method="verifyErrorMessageWhenLastNameIsEmpty">verifyErrorMessageWhenLastNameIsEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CheckOutTest" class="method navigator-link" hash-for-method="verifyErrorMessageWhenPostalCodeIsEmpty">verifyErrorMessageWhenPostalCodeIsEmpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SignInTest" class="method navigator-link" hash-for-method="verifyLoginWithEmptyPassword">verifyLoginWithEmptyPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SignInTest" class="method navigator-link" hash-for-method="verifyLoginWithInvalidusername">verifyLoginWithInvalidusername</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SignInTest" class="method navigator-link" hash-for-method="verifyLoginWithLockedOutUser">verifyLoginWithLockedOutUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SignInTest" class="method navigator-link" hash-for-method="verifyLoginWithPerformanceGlitchUser_TakesLonger">verifyLoginWithPerformanceGlitchUser_TakesLonger</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SignInTest" class="method navigator-link" hash-for-method="verifyLoginWithValidCredentials">verifyLoginWithValidCredentials</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SignInTest" class="method navigator-link" hash-for-method="verifyLoginwithEmptyUserName">verifyLoginwithEmptyUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SignInTest" class="method navigator-link" hash-for-method="verifyLoginwithInvalidPassWord">verifyLoginwithInvalidPassWord</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CartTest" class="method navigator-link" hash-for-method="verifyMenuCartPage">verifyMenuCartPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.ProductTest" class="method navigator-link" hash-for-method="verifyMenuProduct">verifyMenuProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.EndToEndTest" class="method navigator-link" hash-for-method="verifyMessageWhenCheckOutSuccessfully">verifyMessageWhenCheckOutSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CheckOutTest" class="method navigator-link" hash-for-method="verifyMessageWhenCheckOutSuccessfully">verifyMessageWhenCheckOutSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.ProductTest" class="method navigator-link" hash-for-method="verifyProductDescriptionMatchBetweenDetailPage">verifyProductDescriptionMatchBetweenDetailPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CartTest" class="method navigator-link" hash-for-method="verifyProductDescriptionMatchesBetweenProductAndCartPages">verifyProductDescriptionMatchesBetweenProductAndCartPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.ProductTest" class="method navigator-link" hash-for-method="verifyProductImageMatchBetweenDetailPage">verifyProductImageMatchBetweenDetailPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CartTest" class="method navigator-link" hash-for-method="verifyProductIsAddedToCartSuccessfully">verifyProductIsAddedToCartSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.ProductTest" class="method navigator-link" hash-for-method="verifyProductNameMatchBetweenDetailPage">verifyProductNameMatchBetweenDetailPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CartTest" class="method navigator-link" hash-for-method="verifyProductNameMatchesBetweenProductAndCartPages">verifyProductNameMatchesBetweenProductAndCartPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.ProductTest" class="method navigator-link" hash-for-method="verifyProductPriceMatchBetweenDetailPage">verifyProductPriceMatchBetweenDetailPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CartTest" class="method navigator-link" hash-for-method="verifyProductPriceMatchesBetweenProductAndCartPages">verifyProductPriceMatchesBetweenProductAndCartPages</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SortProductTest" class="method navigator-link" hash-for-method="verifyProductSortingByNameAscending">verifyProductSortingByNameAscending</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SortProductTest" class="method navigator-link" hash-for-method="verifyProductSortingByNameDescending">verifyProductSortingByNameDescending</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SortProductTest" class="method navigator-link" hash-for-method="verifyProductSortingByPriceHighToLow">verifyProductSortingByPriceHighToLow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SortProductTest" class="method navigator-link" hash-for-method="verifyProductSortingByPriceLowToHigh">verifyProductSortingByPriceLowToHigh</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CartTest" class="method navigator-link" hash-for-method="verifyQuantityProduct">verifyQuantityProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.ProductTest" class="method navigator-link" hash-for-method="verifyRemoveFromProductPage">verifyRemoveFromProductPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CartTest" class="method navigator-link" hash-for-method="verifyRemoveProductFromCartPage">verifyRemoveProductFromCartPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.ProductTest" class="method navigator-link" hash-for-method="verifyRemoveProductFromDetailPage">verifyRemoveProductFromDetailPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SearchTest" class="method navigator-link" hash-for-method="verifySearchByClickingSearchButton">verifySearchByClickingSearchButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SearchTest" class="method navigator-link" hash-for-method="verifySearchWithEmptyKeyword">verifySearchWithEmptyKeyword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SearchTest" class="method navigator-link" hash-for-method="verifySearchWithLongKeyword">verifySearchWithLongKeyword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SearchTest" class="method navigator-link" hash-for-method="verifySearchWithUnicodeCharacters">verifySearchWithUnicodeCharacters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.SearchTest" class="method navigator-link" hash-for-method="verifySearchWithValidKeyword">verifySearchWithValidKeyword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CheckOutTest" class="method navigator-link" hash-for-method="verifyTotalAmountWithMutipleProduct">verifyTotalAmountWithMutipleProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Automation_Suite" title="com.nam.qa.practice.CheckOutTest" class="method navigator-link" hash-for-method="verifyTotalAmountWithSingleProduct">verifyTotalAmountWithSingleProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Automation_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Automation_Suite" class="panel Automation_Suite">
+          <div class="suite-Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.nam.qa.practice.ProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNavigationFromTileToDetailPage">
+                  </a> <!-- verifyNavigationFromTileToDetailPage -->
+                  <span class="method-name">verifyNavigationFromTileToDetailPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: ❌ Fail Page. Expected URL have contains &apos;inventory-item.html&apos; expected [true] but found [false]
+	at com.nam.qa.practice.ProductTest.verifyNavigationFromTileToDetailPage(ProductTest.java:258)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyNavigationImgFromToDetailPage">
+                  </a> <!-- verifyNavigationImgFromToDetailPage -->
+                  <span class="method-name">verifyNavigationImgFromToDetailPage</span>
+                  <div class="stack-trace">java.lang.AssertionError: ❌ Fail Page. tadaa Expected URL have contains &apos;inventory-item.html&apos; expected [true] but found [false]
+	at com.nam.qa.practice.ProductTest.verifyNavigationImgFromToDetailPage(ProductTest.java:271)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-failed -->
+          <div class="suite-Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.nam.qa.practice.SignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithVisualUser_ShowsBrokenImage">
+                  </a> <!-- verifyLoginWithVisualUser_ShowsBrokenImage -->
+                  <span class="method-name">verifyLoginWithVisualUser_ShowsBrokenImage</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;String.contains(java.lang.CharSequence)&quot; because &quot;imgSrc&quot; is null
+	at com.nam.qa.practice.SignInTest.verifyLoginWithVisualUser_ShowsBrokenImage(SignInTest.java:122)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProblemUserLogin_ShowsBrokenImages">
+                  </a> <!-- verifyProblemUserLogin_ShowsBrokenImages -->
+                  <span class="method-name">verifyProblemUserLogin_ShowsBrokenImages</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
+	at com.nam.qa.practice.SignInTest.verifyProblemUserLogin_ShowsBrokenImages(SignInTest.java:90)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-failed -->
+          <div class="suite-Automation_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.nam.qa.practice.CheckOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCannotCheckoutWithEmptyCart">
+                  </a> <!-- verifyCannotCheckoutWithEmptyCart -->
+                  <span class="method-name">verifyCannotCheckoutWithEmptyCart</span>
+                  <div class="stack-trace">java.lang.AssertionError: ❌ Checkout proceeded even with empty cart! expected [https://www.saucedemo.com/checkout-step-one.html] but found [https://www.saucedemo.com/checkout-step-two.html]
+	at com.nam.qa.practice.CheckOutTest.verifyCannotCheckoutWithEmptyCart(CheckOutTest.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-failed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nam.qa.practice.SearchTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchByClickingSearchButton">
+                  </a> <!-- verifySearchByClickingSearchButton -->
+                  <span class="method-name">verifySearchByClickingSearchButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchWithEmptyKeyword">
+                  </a> <!-- verifySearchWithEmptyKeyword -->
+                  <span class="method-name">verifySearchWithEmptyKeyword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchWithLongKeyword">
+                  </a> <!-- verifySearchWithLongKeyword -->
+                  <span class="method-name">verifySearchWithLongKeyword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchWithUnicodeCharacters">
+                  </a> <!-- verifySearchWithUnicodeCharacters -->
+                  <span class="method-name">verifySearchWithUnicodeCharacters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchWithValidKeyword">
+                  </a> <!-- verifySearchWithValidKeyword -->
+                  <span class="method-name">verifySearchWithValidKeyword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nam.qa.practice.SortProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSortingByNameAscending">
+                  </a> <!-- verifyProductSortingByNameAscending -->
+                  <span class="method-name">verifyProductSortingByNameAscending</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSortingByNameDescending">
+                  </a> <!-- verifyProductSortingByNameDescending -->
+                  <span class="method-name">verifyProductSortingByNameDescending</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSortingByPriceHighToLow">
+                  </a> <!-- verifyProductSortingByPriceHighToLow -->
+                  <span class="method-name">verifyProductSortingByPriceHighToLow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductSortingByPriceLowToHigh">
+                  </a> <!-- verifyProductSortingByPriceLowToHigh -->
+                  <span class="method-name">verifyProductSortingByPriceLowToHigh</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nam.qa.practice.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyButtonCheckout">
+                  </a> <!-- verifyButtonCheckout -->
+                  <span class="method-name">verifyButtonCheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyButtonContinueShopping">
+                  </a> <!-- verifyButtonContinueShopping -->
+                  <span class="method-name">verifyButtonContinueShopping</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMenuCartPage">
+                  </a> <!-- verifyMenuCartPage -->
+                  <span class="method-name">verifyMenuCartPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDescriptionMatchesBetweenProductAndCartPages">
+                  </a> <!-- verifyProductDescriptionMatchesBetweenProductAndCartPages -->
+                  <span class="method-name">verifyProductDescriptionMatchesBetweenProductAndCartPages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductIsAddedToCartSuccessfully">
+                  </a> <!-- verifyProductIsAddedToCartSuccessfully -->
+                  <span class="method-name">verifyProductIsAddedToCartSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductNameMatchesBetweenProductAndCartPages">
+                  </a> <!-- verifyProductNameMatchesBetweenProductAndCartPages -->
+                  <span class="method-name">verifyProductNameMatchesBetweenProductAndCartPages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPriceMatchesBetweenProductAndCartPages">
+                  </a> <!-- verifyProductPriceMatchesBetweenProductAndCartPages -->
+                  <span class="method-name">verifyProductPriceMatchesBetweenProductAndCartPages</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyQuantityProduct">
+                  </a> <!-- verifyQuantityProduct -->
+                  <span class="method-name">verifyQuantityProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRemoveProductFromCartPage">
+                  </a> <!-- verifyRemoveProductFromCartPage -->
+                  <span class="method-name">verifyRemoveProductFromCartPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nam.qa.practice.EndToEndTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMessageWhenCheckOutSuccessfully">
+                  </a> <!-- verifyMessageWhenCheckOutSuccessfully -->
+                  <span class="method-name">verifyMessageWhenCheckOutSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nam.qa.practice.SignInTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithEmptyPassword">
+                  </a> <!-- verifyLoginWithEmptyPassword -->
+                  <span class="method-name">verifyLoginWithEmptyPassword</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithInvalidusername">
+                  </a> <!-- verifyLoginWithInvalidusername -->
+                  <span class="method-name">verifyLoginWithInvalidusername</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithLockedOutUser">
+                  </a> <!-- verifyLoginWithLockedOutUser -->
+                  <span class="method-name">verifyLoginWithLockedOutUser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithPerformanceGlitchUser_TakesLonger">
+                  </a> <!-- verifyLoginWithPerformanceGlitchUser_TakesLonger -->
+                  <span class="method-name">verifyLoginWithPerformanceGlitchUser_TakesLonger</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginWithValidCredentials">
+                  </a> <!-- verifyLoginWithValidCredentials -->
+                  <span class="method-name">verifyLoginWithValidCredentials</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginwithEmptyUserName">
+                  </a> <!-- verifyLoginwithEmptyUserName -->
+                  <span class="method-name">verifyLoginwithEmptyUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginwithInvalidPassWord">
+                  </a> <!-- verifyLoginwithInvalidPassWord -->
+                  <span class="method-name">verifyLoginwithInvalidPassWord</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nam.qa.practice.ProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ProductListisDisplayed">
+                  </a> <!-- ProductListisDisplayed -->
+                  <span class="method-name">ProductListisDisplayed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddtoCartFromDetailPage">
+                  </a> <!-- verifyAddtoCartFromDetailPage -->
+                  <span class="method-name">verifyAddtoCartFromDetailPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAddtoCartFromProductPage">
+                  </a> <!-- verifyAddtoCartFromProductPage -->
+                  <span class="method-name">verifyAddtoCartFromProductPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyButtonBackToProductFromDetailPage">
+                  </a> <!-- verifyButtonBackToProductFromDetailPage -->
+                  <span class="method-name">verifyButtonBackToProductFromDetailPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCartIcon">
+                  </a> <!-- verifyCartIcon -->
+                  <span class="method-name">verifyCartIcon</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMenuProduct">
+                  </a> <!-- verifyMenuProduct -->
+                  <span class="method-name">verifyMenuProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductDescriptionMatchBetweenDetailPage">
+                  </a> <!-- verifyProductDescriptionMatchBetweenDetailPage -->
+                  <span class="method-name">verifyProductDescriptionMatchBetweenDetailPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductImageMatchBetweenDetailPage">
+                  </a> <!-- verifyProductImageMatchBetweenDetailPage -->
+                  <span class="method-name">verifyProductImageMatchBetweenDetailPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductNameMatchBetweenDetailPage">
+                  </a> <!-- verifyProductNameMatchBetweenDetailPage -->
+                  <span class="method-name">verifyProductNameMatchBetweenDetailPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyProductPriceMatchBetweenDetailPage">
+                  </a> <!-- verifyProductPriceMatchBetweenDetailPage -->
+                  <span class="method-name">verifyProductPriceMatchBetweenDetailPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRemoveFromProductPage">
+                  </a> <!-- verifyRemoveFromProductPage -->
+                  <span class="method-name">verifyRemoveFromProductPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyRemoveProductFromDetailPage">
+                  </a> <!-- verifyRemoveProductFromDetailPage -->
+                  <span class="method-name">verifyRemoveProductFromDetailPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+          <div class="suite-Automation_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nam.qa.practice.CheckOutTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyButtonBackHomeNavigatesBackToProductPage">
+                  </a> <!-- verifyButtonBackHomeNavigatesBackToProductPage -->
+                  <span class="method-name">verifyButtonBackHomeNavigatesBackToProductPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCancelButtonNavigatesBackToCartPage">
+                  </a> <!-- verifyCancelButtonNavigatesBackToCartPage -->
+                  <span class="method-name">verifyCancelButtonNavigatesBackToCartPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyErrorMessageWhenFirstNameIsEmpty">
+                  </a> <!-- verifyErrorMessageWhenFirstNameIsEmpty -->
+                  <span class="method-name">verifyErrorMessageWhenFirstNameIsEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyErrorMessageWhenLastNameIsEmpty">
+                  </a> <!-- verifyErrorMessageWhenLastNameIsEmpty -->
+                  <span class="method-name">verifyErrorMessageWhenLastNameIsEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyErrorMessageWhenPostalCodeIsEmpty">
+                  </a> <!-- verifyErrorMessageWhenPostalCodeIsEmpty -->
+                  <span class="method-name">verifyErrorMessageWhenPostalCodeIsEmpty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMessageWhenCheckOutSuccessfully">
+                  </a> <!-- verifyMessageWhenCheckOutSuccessfully -->
+                  <span class="method-name">verifyMessageWhenCheckOutSuccessfully</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTotalAmountWithMutipleProduct">
+                  </a> <!-- verifyTotalAmountWithMutipleProduct -->
+                  <span class="method-name">verifyTotalAmountWithMutipleProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyTotalAmountWithSingleProduct">
+                  </a> <!-- verifyTotalAmountWithSingleProduct -->
+                  <span class="method-name">verifyTotalAmountWithSingleProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Automation_Suite-class-passed -->
+        </div> <!-- panel Automation_Suite -->
+        <div panel-name="test-xml-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\FinalProject\FinalProject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Automation Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;io.qameta.allure.testng.AllureTestNg&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Run All Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.nam.qa.practice.SignInTest&quot;/&gt;
+      &lt;class name=&quot;com.nam.qa.practice.SortProductTest&quot;/&gt;
+      &lt;class name=&quot;com.nam.qa.practice.ProductTest&quot;/&gt;
+      &lt;class name=&quot;com.nam.qa.practice.CartTest&quot;/&gt;
+      &lt;class name=&quot;com.nam.qa.practice.CheckOutTest&quot;/&gt;
+      &lt;class name=&quot;com.nam.qa.practice.EndToEndTest&quot;/&gt;
+      &lt;class name=&quot;com.nam.qa.practice.SearchTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run All Tests --&gt;
+&lt;/suite&gt; &lt;!-- Automation Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Run All Tests (7 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">end-to-end</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyMessageWhenCheckOutSuccessfully</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Automation_Suite');
+function tableData_Automation_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(51);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyLoginWithPerformanceGlitchUser_TakesLonger')
+data.setCell(0, 2, 'com.nam.qa.practice.SignInTest')
+data.setCell(0, 3, 5367);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifySearchWithValidKeyword')
+data.setCell(1, 2, 'com.nam.qa.practice.SearchTest')
+data.setCell(1, 3, 4920);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifySearchWithUnicodeCharacters')
+data.setCell(2, 2, 'com.nam.qa.practice.SearchTest')
+data.setCell(2, 3, 4311);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifySearchWithLongKeyword')
+data.setCell(3, 2, 'com.nam.qa.practice.SearchTest')
+data.setCell(3, 3, 3973);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifySearchWithEmptyKeyword')
+data.setCell(4, 2, 'com.nam.qa.practice.SearchTest')
+data.setCell(4, 3, 3508);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyProductSortingByNameAscending')
+data.setCell(5, 2, 'com.nam.qa.practice.SortProductTest')
+data.setCell(5, 3, 2301);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyProductSortingByPriceHighToLow')
+data.setCell(6, 2, 'com.nam.qa.practice.SortProductTest')
+data.setCell(6, 3, 2286);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyProductSortingByNameDescending')
+data.setCell(7, 2, 'com.nam.qa.practice.SortProductTest')
+data.setCell(7, 3, 2284);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'verifyProductSortingByPriceLowToHigh')
+data.setCell(8, 2, 'com.nam.qa.practice.SortProductTest')
+data.setCell(8, 3, 2256);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifyProductNameMatchesBetweenProductAndCartPages')
+data.setCell(9, 2, 'com.nam.qa.practice.CartTest')
+data.setCell(9, 3, 2218);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyProductPriceMatchesBetweenProductAndCartPages')
+data.setCell(10, 2, 'com.nam.qa.practice.CartTest')
+data.setCell(10, 3, 2184);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyProductDescriptionMatchesBetweenProductAndCartPages')
+data.setCell(11, 2, 'com.nam.qa.practice.CartTest')
+data.setCell(11, 3, 2116);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyProductIsAddedToCartSuccessfully')
+data.setCell(12, 2, 'com.nam.qa.practice.CartTest')
+data.setCell(12, 3, 2114);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyQuantityProduct')
+data.setCell(13, 2, 'com.nam.qa.practice.CartTest')
+data.setCell(13, 3, 2009);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyRemoveProductFromCartPage')
+data.setCell(14, 2, 'com.nam.qa.practice.CartTest')
+data.setCell(14, 3, 1958);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'verifyAddtoCartFromDetailPage')
+data.setCell(15, 2, 'com.nam.qa.practice.ProductTest')
+data.setCell(15, 3, 1813);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'verifyRemoveProductFromDetailPage')
+data.setCell(16, 2, 'com.nam.qa.practice.ProductTest')
+data.setCell(16, 3, 1800);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'verifyTotalAmountWithMutipleProduct')
+data.setCell(17, 2, 'com.nam.qa.practice.CheckOutTest')
+data.setCell(17, 3, 1783);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyMessageWhenCheckOutSuccessfully')
+data.setCell(18, 2, 'com.nam.qa.practice.EndToEndTest')
+data.setCell(18, 3, 1492);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyProductNameMatchBetweenDetailPage')
+data.setCell(19, 2, 'com.nam.qa.practice.ProductTest')
+data.setCell(19, 3, 1287);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyLoginWithValidCredentials')
+data.setCell(20, 2, 'com.nam.qa.practice.SignInTest')
+data.setCell(20, 3, 1271);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'verifyProductDescriptionMatchBetweenDetailPage')
+data.setCell(21, 2, 'com.nam.qa.practice.ProductTest')
+data.setCell(21, 3, 1250);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'verifyRemoveFromProductPage')
+data.setCell(22, 2, 'com.nam.qa.practice.ProductTest')
+data.setCell(22, 3, 1244);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'verifyProductPriceMatchBetweenDetailPage')
+data.setCell(23, 2, 'com.nam.qa.practice.ProductTest')
+data.setCell(23, 3, 1173);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyProductImageMatchBetweenDetailPage')
+data.setCell(24, 2, 'com.nam.qa.practice.ProductTest')
+data.setCell(24, 3, 1163);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'verifyButtonBackToProductFromDetailPage')
+data.setCell(25, 2, 'com.nam.qa.practice.ProductTest')
+data.setCell(25, 3, 1144);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'verifyButtonBackHomeNavigatesBackToProductPage')
+data.setCell(26, 2, 'com.nam.qa.practice.CheckOutTest')
+data.setCell(26, 3, 1142);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'verifyMessageWhenCheckOutSuccessfully')
+data.setCell(27, 2, 'com.nam.qa.practice.CheckOutTest')
+data.setCell(27, 3, 918);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'verifyTotalAmountWithSingleProduct')
+data.setCell(28, 2, 'com.nam.qa.practice.CheckOutTest')
+data.setCell(28, 3, 810);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyMenuCartPage')
+data.setCell(29, 2, 'com.nam.qa.practice.CartTest')
+data.setCell(29, 3, 765);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'verifyMenuProduct')
+data.setCell(30, 2, 'com.nam.qa.practice.ProductTest')
+data.setCell(30, 3, 737);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'verifyCannotCheckoutWithEmptyCart')
+data.setCell(31, 2, 'com.nam.qa.practice.CheckOutTest')
+data.setCell(31, 3, 673);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'verifyErrorMessageWhenFirstNameIsEmpty')
+data.setCell(32, 2, 'com.nam.qa.practice.CheckOutTest')
+data.setCell(32, 3, 656);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'verifyErrorMessageWhenLastNameIsEmpty')
+data.setCell(33, 2, 'com.nam.qa.practice.CheckOutTest')
+data.setCell(33, 3, 616);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyErrorMessageWhenPostalCodeIsEmpty')
+data.setCell(34, 2, 'com.nam.qa.practice.CheckOutTest')
+data.setCell(34, 3, 612);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'verifySearchByClickingSearchButton')
+data.setCell(35, 2, 'com.nam.qa.practice.SearchTest')
+data.setCell(35, 3, 555);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'verifyAddtoCartFromProductPage')
+data.setCell(36, 2, 'com.nam.qa.practice.ProductTest')
+data.setCell(36, 3, 522);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'verifyLoginWithInvalidusername')
+data.setCell(37, 2, 'com.nam.qa.practice.SignInTest')
+data.setCell(37, 3, 447);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'verifyLoginWithVisualUser_ShowsBrokenImage')
+data.setCell(38, 2, 'com.nam.qa.practice.SignInTest')
+data.setCell(38, 3, 390);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'verifyCancelButtonNavigatesBackToCartPage')
+data.setCell(39, 2, 'com.nam.qa.practice.CheckOutTest')
+data.setCell(39, 3, 383);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'verifyLoginwithInvalidPassWord')
+data.setCell(40, 2, 'com.nam.qa.practice.SignInTest')
+data.setCell(40, 3, 379);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'verifyProblemUserLogin_ShowsBrokenImages')
+data.setCell(41, 2, 'com.nam.qa.practice.SignInTest')
+data.setCell(41, 3, 356);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'verifyLoginWithLockedOutUser')
+data.setCell(42, 2, 'com.nam.qa.practice.SignInTest')
+data.setCell(42, 3, 345);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'verifyLoginwithEmptyUserName')
+data.setCell(43, 2, 'com.nam.qa.practice.SignInTest')
+data.setCell(43, 3, 321);
+data.setCell(44, 0, 44)
+data.setCell(44, 1, 'verifyLoginWithEmptyPassword')
+data.setCell(44, 2, 'com.nam.qa.practice.SignInTest')
+data.setCell(44, 3, 319);
+data.setCell(45, 0, 45)
+data.setCell(45, 1, 'verifyButtonContinueShopping')
+data.setCell(45, 2, 'com.nam.qa.practice.CartTest')
+data.setCell(45, 3, 240);
+data.setCell(46, 0, 46)
+data.setCell(46, 1, 'verifyButtonCheckout')
+data.setCell(46, 2, 'com.nam.qa.practice.CartTest')
+data.setCell(46, 3, 196);
+data.setCell(47, 0, 47)
+data.setCell(47, 1, 'verifyCartIcon')
+data.setCell(47, 2, 'com.nam.qa.practice.ProductTest')
+data.setCell(47, 3, 169);
+data.setCell(48, 0, 48)
+data.setCell(48, 1, 'verifyNavigationImgFromToDetailPage')
+data.setCell(48, 2, 'com.nam.qa.practice.ProductTest')
+data.setCell(48, 3, 118);
+data.setCell(49, 0, 49)
+data.setCell(49, 1, 'verifyNavigationFromTileToDetailPage')
+data.setCell(49, 2, 'com.nam.qa.practice.ProductTest')
+data.setCell(49, 3, 113);
+data.setCell(50, 0, 50)
+data.setCell(50, 1, 'ProductListisDisplayed')
+data.setCell(50, 2, 'com.nam.qa.practice.ProductTest')
+data.setCell(50, 3, 32);
+window.suiteTableData['Automation_Suite']= { tableData: data, tableDiv: 'times-div-Automation_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Automation_Suite">
+              </div> <!-- times-div-Automation_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Automation Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Automation_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nam.qa.practice.SignInTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithValidCredentials</span>
+                <span class="method-start">3999 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithInvalidusername</span>
+                <span class="method-start">5378 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginwithInvalidPassWord</span>
+                <span class="method-start">5834 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginwithEmptyUserName</span>
+                <span class="method-start">6223 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithEmptyPassword</span>
+                <span class="method-start">6555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithLockedOutUser</span>
+                <span class="method-start">6883 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyProblemUserLogin_ShowsBrokenImages</span>
+                <span class="method-start">7238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginWithPerformanceGlitchUser_TakesLonger</span>
+                <span class="method-start">7613 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyLoginWithVisualUser_ShowsBrokenImage</span>
+                <span class="method-start">12989 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">13388 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nam.qa.practice.SortProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">16911 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">LoginSauceDemo</span>
+                <span class="method-start">20154 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSortingByNameAscending</span>
+                <span class="method-start">21824 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSortingByNameDescending</span>
+                <span class="method-start">24132 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSortingByPriceLowToHigh</span>
+                <span class="method-start">26424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyProductSortingByPriceHighToLow</span>
+                <span class="method-start">28689 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">30983 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nam.qa.practice.ProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">34486 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37899 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ProductListisDisplayed</span>
+                <span class="method-start">39254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39302 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCartIcon</span>
+                <span class="method-start">39678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">39870 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductNameMatchBetweenDetailPage</span>
+                <span class="method-start">40258 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">41555 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductDescriptionMatchBetweenDetailPage</span>
+                <span class="method-start">41887 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">43146 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPriceMatchBetweenDetailPage</span>
+                <span class="method-start">43453 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">44633 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductImageMatchBetweenDetailPage</span>
+                <span class="method-start">44965 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">46135 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddtoCartFromProductPage</span>
+                <span class="method-start">46450 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">46978 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAddtoCartFromDetailPage</span>
+                <span class="method-start">47295 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">49173 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRemoveFromProductPage</span>
+                <span class="method-start">49549 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">50801 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRemoveProductFromDetailPage</span>
+                <span class="method-start">51127 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">52934 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyNavigationFromTileToDetailPage</span>
+                <span class="method-start">53240 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">53367 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyNavigationImgFromToDetailPage</span>
+                <span class="method-start">53882 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">54009 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyButtonBackToProductFromDetailPage</span>
+                <span class="method-start">54511 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">55662 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMenuProduct</span>
+                <span class="method-start">56018 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">56763 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nam.qa.practice.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">60389 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">63965 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMenuCartPage</span>
+                <span class="method-start">65261 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">66036 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyButtonContinueShopping</span>
+                <span class="method-start">66448 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">66694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyButtonCheckout</span>
+                <span class="method-start">67011 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">67214 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductIsAddedToCartSuccessfully</span>
+                <span class="method-start">67531 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">69653 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductNameMatchesBetweenProductAndCartPages</span>
+                <span class="method-start">69970 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">72197 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductDescriptionMatchesBetweenProductAndCartPages</span>
+                <span class="method-start">72510 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">74635 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyProductPriceMatchesBetweenProductAndCartPages</span>
+                <span class="method-start">74957 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">77148 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyQuantityProduct</span>
+                <span class="method-start">77462 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">79480 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyRemoveProductFromCartPage</span>
+                <span class="method-start">79794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">81760 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nam.qa.practice.CheckOutTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">85281 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">88571 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyCancelButtonNavigatesBackToCartPage</span>
+                <span class="method-start">89565 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">89957 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyErrorMessageWhenFirstNameIsEmpty</span>
+                <span class="method-start">90351 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">91014 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyErrorMessageWhenLastNameIsEmpty</span>
+                <span class="method-start">91331 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">91953 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyErrorMessageWhenPostalCodeIsEmpty</span>
+                <span class="method-start">92279 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">92899 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyCannotCheckoutWithEmptyCart</span>
+                <span class="method-start">93225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">93908 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTotalAmountWithSingleProduct</span>
+                <span class="method-start">94244 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">95063 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyTotalAmountWithMutipleProduct</span>
+                <span class="method-start">95406 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">97196 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMessageWhenCheckOutSuccessfully</span>
+                <span class="method-start">97544 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">98476 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyButtonBackHomeNavigatesBackToProductPage</span>
+                <span class="method-start">98851 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">100002 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nam.qa.practice.EndToEndTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">103696 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">107018 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMessageWhenCheckOutSuccessfully</span>
+                <span class="method-start">108315 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">109814 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nam.qa.practice.SearchTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">113176 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">116471 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchWithValidKeyword</span>
+                <span class="method-start">134114 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchWithEmptyKeyword</span>
+                <span class="method-start">139042 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchWithLongKeyword</span>
+                <span class="method-start">142559 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchWithUnicodeCharacters</span>
+                <span class="method-start">146540 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchByClickingSearchButton</span>
+                <span class="method-start">150857 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">TearDown</span>
+                <span class="method-start">151422 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

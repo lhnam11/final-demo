@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Allure Test Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Run All Tests(failed)">
+    <classes>
+      <class name="com.nam.qa.practice.SortProductTest">
+        <methods>
+          <include name="TestSort_ZtoA"/>
+          <include name="SetUp"/>
+          <include name="LoginSauceDemo"/>
+          <include name="TestSort_LowtoHigh"/>
+          <include name="TestSort_HightoLow"/>
+          <include name="TearDown"/>
+          <include name="TestSort_AtoZ"/>
+        </methods>
+      </class> <!-- com.nam.qa.practice.SortProductTest -->
+      <class name="com.nam.qa.practice.SingInTest">
+        <methods>
+          <include name="LoginwithEmptyName"/>
+          <include name="SetUp"/>
+          <include name="LoginwithEmptyPassWord"/>
+          <include name="TearDown"/>
+          <include name="LoginwithInvalidPassWord"/>
+          <include name="LoginValid"/>
+          <include name="LoginwithInvalidName"/>
+        </methods>
+      </class> <!-- com.nam.qa.practice.SingInTest -->
+    </classes>
+  </test> <!-- Run All Tests(failed) -->
+</suite> <!-- Failed suite [Allure Test Suite] -->
