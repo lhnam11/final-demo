@@ -1,187 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="51" passed="46" failed="5" skipped="0">
+<testng-results ignored="0" total="14" passed="12" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-06-23T16:05:39 ICT" name="Automation Suite" finished-at="2025-06-23T16:08:14 ICT" duration-ms="155263">
+  <suite started-at="2025-06-23T17:09:07 ICT" name="Default suite" finished-at="2025-06-23T17:09:33 ICT" duration-ms="26563">
     <groups>
-      <group name="end-to-end">
-        <method signature="CheckOutTest.verifyMessageWhenCheckOutSuccessfully()[pri:7, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" name="verifyMessageWhenCheckOutSuccessfully" class="com.nam.qa.practice.CheckOutTest"/>
-        <method signature="EndToEndTest.verifyMessageWhenCheckOutSuccessfully()[pri:7, instance:com.nam.qa.practice.EndToEndTest@56dc1551]" name="verifyMessageWhenCheckOutSuccessfully" class="com.nam.qa.practice.EndToEndTest"/>
-      </group> <!-- end-to-end -->
     </groups>
-    <test started-at="2025-06-23T16:05:39 ICT" name="Run All Tests" finished-at="2025-06-23T16:08:14 ICT" duration-ms="155263">
-      <class name="com.nam.qa.practice.CartTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:40 ICT" name="SetUp" finished-at="2025-06-23T16:06:43 ICT" duration-ms="3574" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:43 ICT" name="setup" finished-at="2025-06-23T16:06:44 ICT" duration-ms="1107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyMenuCartPage()[pri:0, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:44 ICT" name="verifyMenuCartPage" finished-at="2025-06-23T16:06:45 ICT" duration-ms="765" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMenuCartPage -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:45 ICT" name="setup" finished-at="2025-06-23T16:06:46 ICT" duration-ms="406" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyButtonContinueShopping()[pri:1, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:46 ICT" name="verifyButtonContinueShopping" finished-at="2025-06-23T16:06:46 ICT" duration-ms="240" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyButtonContinueShopping -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:46 ICT" name="setup" finished-at="2025-06-23T16:06:46 ICT" duration-ms="310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyButtonCheckout()[pri:2, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:46 ICT" name="verifyButtonCheckout" finished-at="2025-06-23T16:06:46 ICT" duration-ms="196" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyButtonCheckout -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:46 ICT" name="setup" finished-at="2025-06-23T16:06:47 ICT" duration-ms="310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyProductIsAddedToCartSuccessfully()[pri:3, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:47 ICT" name="verifyProductIsAddedToCartSuccessfully" finished-at="2025-06-23T16:06:49 ICT" duration-ms="2114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductIsAddedToCartSuccessfully -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:49 ICT" name="setup" finished-at="2025-06-23T16:06:49 ICT" duration-ms="310" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyProductNameMatchesBetweenProductAndCartPages()[pri:4, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:49 ICT" name="verifyProductNameMatchesBetweenProductAndCartPages" finished-at="2025-06-23T16:06:51 ICT" duration-ms="2218" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductNameMatchesBetweenProductAndCartPages -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:51 ICT" name="setup" finished-at="2025-06-23T16:06:52 ICT" duration-ms="305" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyProductDescriptionMatchesBetweenProductAndCartPages()[pri:5, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:52 ICT" name="verifyProductDescriptionMatchesBetweenProductAndCartPages" finished-at="2025-06-23T16:06:54 ICT" duration-ms="2116" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductDescriptionMatchesBetweenProductAndCartPages -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:54 ICT" name="setup" finished-at="2025-06-23T16:06:54 ICT" duration-ms="314" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyProductPriceMatchesBetweenProductAndCartPages()[pri:6, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:54 ICT" name="verifyProductPriceMatchesBetweenProductAndCartPages" finished-at="2025-06-23T16:06:56 ICT" duration-ms="2184" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductPriceMatchesBetweenProductAndCartPages -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:56 ICT" name="setup" finished-at="2025-06-23T16:06:57 ICT" duration-ms="307" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyQuantityProduct()[pri:7, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:57 ICT" name="verifyQuantityProduct" finished-at="2025-06-23T16:06:59 ICT" duration-ms="2009" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyQuantityProduct -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:59 ICT" name="setup" finished-at="2025-06-23T16:06:59 ICT" duration-ms="311" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyRemoveProductFromCartPage()[pri:8, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:06:59 ICT" name="verifyRemoveProductFromCartPage" finished-at="2025-06-23T16:07:01 ICT" duration-ms="1958" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyRemoveProductFromCartPage -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.nam.qa.practice.CartTest@5e17553a]" started-at="2025-06-23T16:07:01 ICT" name="TearDown" finished-at="2025-06-23T16:07:04 ICT" duration-ms="3520" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.nam.qa.practice.CartTest -->
+    <test started-at="2025-06-23T17:09:07 ICT" name="Default test" finished-at="2025-06-23T17:09:33 ICT" duration-ms="26563">
       <class name="com.nam.qa.practice.ProductTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:14 ICT" name="SetUp" finished-at="2025-06-23T16:06:17 ICT" duration-ms="3409" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:07 ICT" name="SetUp" finished-at="2025-06-23T17:09:11 ICT" duration-ms="3861" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:17 ICT" name="setUp" finished-at="2025-06-23T16:06:18 ICT" duration-ms="1327" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:11 ICT" name="setUp" finished-at="2025-06-23T17:09:12 ICT" duration-ms="1099" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ProductListisDisplayed()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:18 ICT" name="ProductListisDisplayed" finished-at="2025-06-23T16:06:18 ICT" duration-ms="32" status="PASS">
+        <test-method signature="ProductListisDisplayed()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:12 ICT" name="ProductListisDisplayed" finished-at="2025-06-23T17:09:12 ICT" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ProductListisDisplayed -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:18 ICT" name="setUp" finished-at="2025-06-23T16:06:19 ICT" duration-ms="372" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:12 ICT" name="setUp" finished-at="2025-06-23T17:09:12 ICT" duration-ms="429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyCartIcon()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:19 ICT" name="verifyCartIcon" finished-at="2025-06-23T16:06:19 ICT" duration-ms="169" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCartIcon -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:19 ICT" name="setUp" finished-at="2025-06-23T16:06:19 ICT" duration-ms="383" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyProductNameMatchBetweenDetailPage()[pri:1, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:19 ICT" name="verifyProductNameMatchBetweenDetailPage" finished-at="2025-06-23T16:06:21 ICT" duration-ms="1287" status="PASS">
+        <test-method signature="verifyProductNameMatchBetweenDetailPage()[pri:1, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:12 ICT" name="verifyProductNameMatchBetweenDetailPage" finished-at="2025-06-23T17:09:14 ICT" duration-ms="1306" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductNameMatchBetweenDetailPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:21 ICT" name="setUp" finished-at="2025-06-23T16:06:21 ICT" duration-ms="325" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:14 ICT" name="setUp" finished-at="2025-06-23T17:09:14 ICT" duration-ms="322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyProductDescriptionMatchBetweenDetailPage()[pri:2, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:21 ICT" name="verifyProductDescriptionMatchBetweenDetailPage" finished-at="2025-06-23T16:06:22 ICT" duration-ms="1250" status="PASS">
+        <test-method signature="verifyProductDescriptionMatchBetweenDetailPage()[pri:2, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:14 ICT" name="verifyProductDescriptionMatchBetweenDetailPage" finished-at="2025-06-23T17:09:15 ICT" duration-ms="1313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductDescriptionMatchBetweenDetailPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:22 ICT" name="setUp" finished-at="2025-06-23T16:06:23 ICT" duration-ms="302" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:15 ICT" name="setUp" finished-at="2025-06-23T17:09:16 ICT" duration-ms="348" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyProductPriceMatchBetweenDetailPage()[pri:3, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:23 ICT" name="verifyProductPriceMatchBetweenDetailPage" finished-at="2025-06-23T16:06:24 ICT" duration-ms="1173" status="PASS">
+        <test-method signature="verifyProductPriceMatchBetweenDetailPage()[pri:3, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:16 ICT" name="verifyProductPriceMatchBetweenDetailPage" finished-at="2025-06-23T17:09:17 ICT" duration-ms="1332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductPriceMatchBetweenDetailPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:24 ICT" name="setUp" finished-at="2025-06-23T16:06:24 ICT" duration-ms="326" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:17 ICT" name="setUp" finished-at="2025-06-23T17:09:17 ICT" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyProductImageMatchBetweenDetailPage()[pri:4, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:24 ICT" name="verifyProductImageMatchBetweenDetailPage" finished-at="2025-06-23T16:06:25 ICT" duration-ms="1163" status="PASS">
+        <test-method signature="verifyProductImageMatchBetweenDetailPage()[pri:4, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:17 ICT" name="verifyProductImageMatchBetweenDetailPage" finished-at="2025-06-23T17:09:19 ICT" duration-ms="1186" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductImageMatchBetweenDetailPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:25 ICT" name="setUp" finished-at="2025-06-23T16:06:26 ICT" duration-ms="308" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:19 ICT" name="setUp" finished-at="2025-06-23T17:09:19 ICT" duration-ms="310" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyAddtoCartFromProductPage()[pri:5, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:26 ICT" name="verifyAddtoCartFromProductPage" finished-at="2025-06-23T16:06:26 ICT" duration-ms="522" status="PASS">
+        <test-method signature="verifyAddtoCartFromProductPage()[pri:5, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:19 ICT" name="verifyAddtoCartFromProductPage" finished-at="2025-06-23T17:09:20 ICT" duration-ms="572" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddtoCartFromProductPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:26 ICT" name="setUp" finished-at="2025-06-23T16:06:26 ICT" duration-ms="311" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:20 ICT" name="setUp" finished-at="2025-06-23T17:09:20 ICT" duration-ms="327" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyAddtoCartFromDetailPage()[pri:6, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:26 ICT" name="verifyAddtoCartFromDetailPage" finished-at="2025-06-23T16:06:28 ICT" duration-ms="1813" status="PASS">
+        <test-method signature="verifyAddtoCartFromDetailPage()[pri:6, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:20 ICT" name="verifyAddtoCartFromDetailPage" finished-at="2025-06-23T17:09:22 ICT" duration-ms="1903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAddtoCartFromDetailPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:28 ICT" name="setUp" finished-at="2025-06-23T16:06:29 ICT" duration-ms="371" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:22 ICT" name="setUp" finished-at="2025-06-23T17:09:22 ICT" duration-ms="315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyRemoveFromProductPage()[pri:7, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:29 ICT" name="verifyRemoveFromProductPage" finished-at="2025-06-23T16:06:30 ICT" duration-ms="1244" status="PASS">
+        <test-method signature="verifyRemoveFromProductPage()[pri:7, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:22 ICT" name="verifyRemoveFromProductPage" finished-at="2025-06-23T17:09:23 ICT" duration-ms="1303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRemoveFromProductPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:30 ICT" name="setUp" finished-at="2025-06-23T16:06:30 ICT" duration-ms="320" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:23 ICT" name="setUp" finished-at="2025-06-23T17:09:24 ICT" duration-ms="313" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyRemoveProductFromDetailPage()[pri:8, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:30 ICT" name="verifyRemoveProductFromDetailPage" finished-at="2025-06-23T16:06:32 ICT" duration-ms="1800" status="PASS">
+        <test-method signature="verifyRemoveProductFromDetailPage()[pri:8, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:24 ICT" name="verifyRemoveProductFromDetailPage" finished-at="2025-06-23T17:09:26 ICT" duration-ms="2075" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyRemoveProductFromDetailPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:32 ICT" name="setUp" finished-at="2025-06-23T16:06:32 ICT" duration-ms="298" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:26 ICT" name="setUp" finished-at="2025-06-23T17:09:26 ICT" duration-ms="355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyNavigationFromTileToDetailPage()[pri:9, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:32 ICT" name="verifyNavigationFromTileToDetailPage" finished-at="2025-06-23T16:06:32 ICT" duration-ms="113" status="FAIL">
+        <test-method signature="verifyNavigationFromTileToDetailPage()[pri:9, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:26 ICT" name="verifyNavigationFromTileToDetailPage" finished-at="2025-06-23T17:09:26 ICT" duration-ms="194" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[❌ Fail Page. Expected URL have contains 'inventory-item.html' expected [true] but found [false]]]>
@@ -191,7 +97,7 @@
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
-at com.nam.qa.practice.ProductTest.verifyNavigationFromTileToDetailPage(ProductTest.java:258)
+at com.nam.qa.practice.ProductTest.verifyNavigationFromTileToDetailPage(ProductTest.java:260)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -224,11 +130,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigationFromTileToDetailPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:32 ICT" name="setUp" finished-at="2025-06-23T16:06:33 ICT" duration-ms="508" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:26 ICT" name="setUp" finished-at="2025-06-23T17:09:27 ICT" duration-ms="362" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyNavigationImgFromToDetailPage()[pri:10, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:33 ICT" name="verifyNavigationImgFromToDetailPage" finished-at="2025-06-23T16:06:33 ICT" duration-ms="118" status="FAIL">
+        <test-method signature="verifyNavigationImgFromToDetailPage()[pri:10, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:27 ICT" name="verifyNavigationImgFromToDetailPage" finished-at="2025-06-23T17:09:27 ICT" duration-ms="127" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[❌ Fail Page. tadaa Expected URL have contains 'inventory-item.html' expected [true] but found [false]]]>
@@ -238,7 +144,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 at org.testng.Assert.fail(Assert.java:111)
 at org.testng.Assert.failNotEquals(Assert.java:1590)
 at org.testng.Assert.assertTrue(Assert.java:57)
-at com.nam.qa.practice.ProductTest.verifyNavigationImgFromToDetailPage(ProductTest.java:271)
+at com.nam.qa.practice.ProductTest.verifyNavigationImgFromToDetailPage(ProductTest.java:273)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
@@ -271,350 +177,35 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNavigationImgFromToDetailPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:33 ICT" name="setUp" finished-at="2025-06-23T16:06:34 ICT" duration-ms="496" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:27 ICT" name="setUp" finished-at="2025-06-23T17:09:27 ICT" duration-ms="343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyButtonBackToProductFromDetailPage()[pri:11, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:34 ICT" name="verifyButtonBackToProductFromDetailPage" finished-at="2025-06-23T16:06:35 ICT" duration-ms="1144" status="PASS">
+        <test-method signature="verifyButtonBackToProductFromDetailPage()[pri:11, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:27 ICT" name="verifyButtonBackToProductFromDetailPage" finished-at="2025-06-23T17:09:28 ICT" duration-ms="1052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyButtonBackToProductFromDetailPage -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:35 ICT" name="setUp" finished-at="2025-06-23T16:06:35 ICT" duration-ms="352" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:28 ICT" name="setUp" finished-at="2025-06-23T17:09:29 ICT" duration-ms="301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyMenuProduct()[pri:12, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:35 ICT" name="verifyMenuProduct" finished-at="2025-06-23T16:06:36 ICT" duration-ms="737" status="PASS">
+        <test-method signature="verifyMenuProduct()[pri:12, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:29 ICT" name="verifyMenuProduct" finished-at="2025-06-23T17:09:29 ICT" duration-ms="728" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyMenuProduct -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.nam.qa.practice.ProductTest@3b5fad2d]" started-at="2025-06-23T16:06:36 ICT" name="TearDown" finished-at="2025-06-23T16:06:40 ICT" duration-ms="3625" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:29 ICT" name="setUp" finished-at="2025-06-23T17:09:30 ICT" duration-ms="376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCartIcon()[pri:13, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:30 ICT" name="verifyCartIcon" finished-at="2025-06-23T17:09:30 ICT" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartIcon -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.nam.qa.practice.ProductTest@1a5a4e19]" started-at="2025-06-23T17:09:30 ICT" name="TearDown" finished-at="2025-06-23T17:09:33 ICT" duration-ms="3429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.nam.qa.practice.ProductTest -->
-      <class name="com.nam.qa.practice.SortProductTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.nam.qa.practice.SortProductTest@6531a794]" started-at="2025-06-23T16:05:56 ICT" name="SetUp" finished-at="2025-06-23T16:05:59 ICT" duration-ms="3243" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="LoginSauceDemo()[pri:0, instance:com.nam.qa.practice.SortProductTest@6531a794]" started-at="2025-06-23T16:05:59 ICT" name="LoginSauceDemo" finished-at="2025-06-23T16:06:01 ICT" duration-ms="1669" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LoginSauceDemo -->
-        <test-method signature="verifyProductSortingByNameAscending()[pri:0, instance:com.nam.qa.practice.SortProductTest@6531a794]" started-at="2025-06-23T16:06:01 ICT" name="verifyProductSortingByNameAscending" finished-at="2025-06-23T16:06:03 ICT" duration-ms="2301" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductSortingByNameAscending -->
-        <test-method signature="verifyProductSortingByNameDescending()[pri:1, instance:com.nam.qa.practice.SortProductTest@6531a794]" started-at="2025-06-23T16:06:03 ICT" name="verifyProductSortingByNameDescending" finished-at="2025-06-23T16:06:06 ICT" duration-ms="2284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductSortingByNameDescending -->
-        <test-method signature="verifyProductSortingByPriceLowToHigh()[pri:2, instance:com.nam.qa.practice.SortProductTest@6531a794]" started-at="2025-06-23T16:06:06 ICT" name="verifyProductSortingByPriceLowToHigh" finished-at="2025-06-23T16:06:08 ICT" duration-ms="2256" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductSortingByPriceLowToHigh -->
-        <test-method signature="verifyProductSortingByPriceHighToLow()[pri:3, instance:com.nam.qa.practice.SortProductTest@6531a794]" started-at="2025-06-23T16:06:08 ICT" name="verifyProductSortingByPriceHighToLow" finished-at="2025-06-23T16:06:10 ICT" duration-ms="2286" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProductSortingByPriceHighToLow -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.nam.qa.practice.SortProductTest@6531a794]" started-at="2025-06-23T16:06:10 ICT" name="TearDown" finished-at="2025-06-23T16:06:14 ICT" duration-ms="3502" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.nam.qa.practice.SortProductTest -->
-      <class name="com.nam.qa.practice.EndToEndTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.nam.qa.practice.EndToEndTest@56dc1551]" started-at="2025-06-23T16:07:23 ICT" name="SetUp" finished-at="2025-06-23T16:07:26 ICT" duration-ms="3321" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.EndToEndTest@56dc1551]" started-at="2025-06-23T16:07:26 ICT" name="setup" finished-at="2025-06-23T16:07:27 ICT" duration-ms="1035" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyMessageWhenCheckOutSuccessfully()[pri:7, instance:com.nam.qa.practice.EndToEndTest@56dc1551]" started-at="2025-06-23T16:07:27 ICT" name="verifyMessageWhenCheckOutSuccessfully" finished-at="2025-06-23T16:07:29 ICT" duration-ms="1492" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMessageWhenCheckOutSuccessfully -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.nam.qa.practice.EndToEndTest@56dc1551]" started-at="2025-06-23T16:07:29 ICT" name="TearDown" finished-at="2025-06-23T16:07:32 ICT" duration-ms="3361" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.nam.qa.practice.EndToEndTest -->
-      <class name="com.nam.qa.practice.SignInTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.nam.qa.practice.SignInTest@18317edc]" started-at="2025-06-23T16:05:39 ICT" name="SetUp" finished-at="2025-06-23T16:05:43 ICT" duration-ms="3940" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method signature="verifyLoginWithValidCredentials()[pri:0, instance:com.nam.qa.practice.SignInTest@18317edc]" started-at="2025-06-23T16:05:43 ICT" name="verifyLoginWithValidCredentials" finished-at="2025-06-23T16:05:44 ICT" duration-ms="1271" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithValidCredentials -->
-        <test-method signature="verifyLoginWithInvalidusername()[pri:1, instance:com.nam.qa.practice.SignInTest@18317edc]" started-at="2025-06-23T16:05:45 ICT" name="verifyLoginWithInvalidusername" finished-at="2025-06-23T16:05:45 ICT" duration-ms="447" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithInvalidusername -->
-        <test-method signature="verifyLoginwithInvalidPassWord()[pri:2, instance:com.nam.qa.practice.SignInTest@18317edc]" started-at="2025-06-23T16:05:45 ICT" name="verifyLoginwithInvalidPassWord" finished-at="2025-06-23T16:05:45 ICT" duration-ms="379" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginwithInvalidPassWord -->
-        <test-method signature="verifyLoginwithEmptyUserName()[pri:3, instance:com.nam.qa.practice.SignInTest@18317edc]" started-at="2025-06-23T16:05:45 ICT" name="verifyLoginwithEmptyUserName" finished-at="2025-06-23T16:05:46 ICT" duration-ms="321" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginwithEmptyUserName -->
-        <test-method signature="verifyLoginWithEmptyPassword()[pri:4, instance:com.nam.qa.practice.SignInTest@18317edc]" started-at="2025-06-23T16:05:46 ICT" name="verifyLoginWithEmptyPassword" finished-at="2025-06-23T16:05:46 ICT" duration-ms="319" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithEmptyPassword -->
-        <test-method signature="verifyLoginWithLockedOutUser()[pri:5, instance:com.nam.qa.practice.SignInTest@18317edc]" started-at="2025-06-23T16:05:46 ICT" name="verifyLoginWithLockedOutUser" finished-at="2025-06-23T16:05:46 ICT" duration-ms="345" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithLockedOutUser -->
-        <test-method signature="verifyProblemUserLogin_ShowsBrokenImages()[pri:6, instance:com.nam.qa.practice.SignInTest@18317edc]" started-at="2025-06-23T16:05:46 ICT" name="verifyProblemUserLogin_ShowsBrokenImages" finished-at="2025-06-23T16:05:47 ICT" duration-ms="356" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)" because "this.wait" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)" because "this.wait" is null
-at com.nam.qa.practice.SignInTest.verifyProblemUserLogin_ShowsBrokenImages(SignInTest.java:90)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyProblemUserLogin_ShowsBrokenImages -->
-        <test-method signature="verifyLoginWithPerformanceGlitchUser_TakesLonger()[pri:7, instance:com.nam.qa.practice.SignInTest@18317edc]" started-at="2025-06-23T16:05:47 ICT" name="verifyLoginWithPerformanceGlitchUser_TakesLonger" finished-at="2025-06-23T16:05:52 ICT" duration-ms="5367" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithPerformanceGlitchUser_TakesLonger -->
-        <test-method signature="verifyLoginWithVisualUser_ShowsBrokenImage()[pri:8, instance:com.nam.qa.practice.SignInTest@18317edc]" started-at="2025-06-23T16:05:52 ICT" name="verifyLoginWithVisualUser_ShowsBrokenImage" finished-at="2025-06-23T16:05:53 ICT" duration-ms="390" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "String.contains(java.lang.CharSequence)" because "imgSrc" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because "imgSrc" is null
-at com.nam.qa.practice.SignInTest.verifyLoginWithVisualUser_ShowsBrokenImage(SignInTest.java:122)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginWithVisualUser_ShowsBrokenImage -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.nam.qa.practice.SignInTest@18317edc]" started-at="2025-06-23T16:05:53 ICT" name="TearDown" finished-at="2025-06-23T16:05:56 ICT" duration-ms="3522" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.nam.qa.practice.SignInTest -->
-      <class name="com.nam.qa.practice.CheckOutTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:04 ICT" name="SetUp" finished-at="2025-06-23T16:07:08 ICT" duration-ms="3289" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:08 ICT" name="setup" finished-at="2025-06-23T16:07:09 ICT" duration-ms="989" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyCancelButtonNavigatesBackToCartPage()[pri:0, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:09 ICT" name="verifyCancelButtonNavigatesBackToCartPage" finished-at="2025-06-23T16:07:09 ICT" duration-ms="383" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCancelButtonNavigatesBackToCartPage -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:09 ICT" name="setup" finished-at="2025-06-23T16:07:09 ICT" duration-ms="388" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyErrorMessageWhenFirstNameIsEmpty()[pri:1, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:09 ICT" name="verifyErrorMessageWhenFirstNameIsEmpty" finished-at="2025-06-23T16:07:10 ICT" duration-ms="656" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyErrorMessageWhenFirstNameIsEmpty -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:10 ICT" name="setup" finished-at="2025-06-23T16:07:10 ICT" duration-ms="312" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyErrorMessageWhenLastNameIsEmpty()[pri:2, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:10 ICT" name="verifyErrorMessageWhenLastNameIsEmpty" finished-at="2025-06-23T16:07:11 ICT" duration-ms="616" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyErrorMessageWhenLastNameIsEmpty -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:11 ICT" name="setup" finished-at="2025-06-23T16:07:11 ICT" duration-ms="318" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyErrorMessageWhenPostalCodeIsEmpty()[pri:3, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:11 ICT" name="verifyErrorMessageWhenPostalCodeIsEmpty" finished-at="2025-06-23T16:07:12 ICT" duration-ms="612" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyErrorMessageWhenPostalCodeIsEmpty -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:12 ICT" name="setup" finished-at="2025-06-23T16:07:12 ICT" duration-ms="319" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyCannotCheckoutWithEmptyCart()[pri:4, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:12 ICT" name="verifyCannotCheckoutWithEmptyCart" finished-at="2025-06-23T16:07:13 ICT" duration-ms="673" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[❌ Checkout proceeded even with empty cart! expected [https://www.saucedemo.com/checkout-step-one.html] but found [https://www.saucedemo.com/checkout-step-two.html]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: ❌ Checkout proceeded even with empty cart! expected [https://www.saucedemo.com/checkout-step-one.html] but found [https://www.saucedemo.com/checkout-step-two.html]
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.failNotEquals(Assert.java:1590)
-at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-at org.testng.Assert.assertEquals(Assert.java:132)
-at org.testng.Assert.assertEquals(Assert.java:656)
-at com.nam.qa.practice.CheckOutTest.verifyCannotCheckoutWithEmptyCart(CheckOutTest.java:101)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyCannotCheckoutWithEmptyCart -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:13 ICT" name="setup" finished-at="2025-06-23T16:07:13 ICT" duration-ms="333" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyTotalAmountWithSingleProduct()[pri:5, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:13 ICT" name="verifyTotalAmountWithSingleProduct" finished-at="2025-06-23T16:07:14 ICT" duration-ms="810" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTotalAmountWithSingleProduct -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:14 ICT" name="setup" finished-at="2025-06-23T16:07:15 ICT" duration-ms="336" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyTotalAmountWithMutipleProduct()[pri:6, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:15 ICT" name="verifyTotalAmountWithMutipleProduct" finished-at="2025-06-23T16:07:16 ICT" duration-ms="1783" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTotalAmountWithMutipleProduct -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:16 ICT" name="setup" finished-at="2025-06-23T16:07:17 ICT" duration-ms="343" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyMessageWhenCheckOutSuccessfully()[pri:7, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:17 ICT" name="verifyMessageWhenCheckOutSuccessfully" finished-at="2025-06-23T16:07:18 ICT" duration-ms="918" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMessageWhenCheckOutSuccessfully -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:18 ICT" name="setup" finished-at="2025-06-23T16:07:18 ICT" duration-ms="367" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyButtonBackHomeNavigatesBackToProductPage()[pri:8, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:18 ICT" name="verifyButtonBackHomeNavigatesBackToProductPage" finished-at="2025-06-23T16:07:19 ICT" duration-ms="1142" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyButtonBackHomeNavigatesBackToProductPage -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.nam.qa.practice.CheckOutTest@3eb91815]" started-at="2025-06-23T16:07:19 ICT" name="TearDown" finished-at="2025-06-23T16:07:23 ICT" duration-ms="3693" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.nam.qa.practice.CheckOutTest -->
-      <class name="com.nam.qa.practice.SearchTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.nam.qa.practice.SearchTest@102cec62]" started-at="2025-06-23T16:07:32 ICT" name="SetUp" finished-at="2025-06-23T16:07:36 ICT" duration-ms="3294" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SetUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.nam.qa.practice.SearchTest@102cec62]" started-at="2025-06-23T16:07:36 ICT" name="setUp" finished-at="2025-06-23T16:07:53 ICT" duration-ms="17641" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySearchWithValidKeyword()[pri:0, instance:com.nam.qa.practice.SearchTest@102cec62]" started-at="2025-06-23T16:07:53 ICT" name="verifySearchWithValidKeyword" finished-at="2025-06-23T16:07:58 ICT" duration-ms="4920" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchWithValidKeyword -->
-        <test-method signature="verifySearchWithEmptyKeyword()[pri:1, instance:com.nam.qa.practice.SearchTest@102cec62]" started-at="2025-06-23T16:07:58 ICT" name="verifySearchWithEmptyKeyword" finished-at="2025-06-23T16:08:02 ICT" duration-ms="3508" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchWithEmptyKeyword -->
-        <test-method signature="verifySearchWithLongKeyword()[pri:2, instance:com.nam.qa.practice.SearchTest@102cec62]" started-at="2025-06-23T16:08:02 ICT" name="verifySearchWithLongKeyword" finished-at="2025-06-23T16:08:06 ICT" duration-ms="3973" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchWithLongKeyword -->
-        <test-method signature="verifySearchWithUnicodeCharacters()[pri:3, instance:com.nam.qa.practice.SearchTest@102cec62]" started-at="2025-06-23T16:08:06 ICT" name="verifySearchWithUnicodeCharacters" finished-at="2025-06-23T16:08:10 ICT" duration-ms="4311" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchWithUnicodeCharacters -->
-        <test-method signature="verifySearchByClickingSearchButton()[pri:4, instance:com.nam.qa.practice.SearchTest@102cec62]" started-at="2025-06-23T16:08:10 ICT" name="verifySearchByClickingSearchButton" finished-at="2025-06-23T16:08:11 ICT" duration-ms="555" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchByClickingSearchButton -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.nam.qa.practice.SearchTest@102cec62]" started-at="2025-06-23T16:08:11 ICT" name="TearDown" finished-at="2025-06-23T16:08:14 ICT" duration-ms="3781" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TearDown -->
-      </class> <!-- com.nam.qa.practice.SearchTest -->
-    </test> <!-- Run All Tests -->
-  </suite> <!-- Automation Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

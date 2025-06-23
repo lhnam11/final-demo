@@ -3,14 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nam.qa.practice.SearchTest">
+      <class name="com.nam.qa.practice.ProductTest">
         <methods>
           <include name="SetUp"/>
+          <include name="verifyNavigationImgFromToDetailPage"/>
+          <include name="verifyNavigationFromTileToDetailPage"/>
           <include name="setUp"/>
-          <include name="verifySearchWithEmptyKeyword"/>
           <include name="TearDown"/>
         </methods>
-      </class> <!-- com.nam.qa.practice.SearchTest -->
+      </class> <!-- com.nam.qa.practice.ProductTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
