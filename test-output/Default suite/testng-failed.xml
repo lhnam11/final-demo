@@ -3,26 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.nam.qa.practice.ProductTest">
+      <class name="com.nam.qa.practice.CheckOutTest">
         <methods>
-          <include name="verifyNavigationImgFromToDetailPage"/>
-          <include name="verifyAddtoCartFromDetailPage"/>
-          <include name="verifyProductDescriptionMatchBetweenDetailPage"/>
-          <include name="verifyButtonBackToProductFromDetailPage"/>
-          <include name="TearDown"/>
+          <include name="verifyCannotCheckoutWithEmptyCart"/>
+          <include name="setup"/>
           <include name="SetUp"/>
-          <include name="verifyRemoveProductFromDetailPage"/>
-          <include name="verifyNavigationFromTileToDetailPage"/>
-          <include name="verifyProductNameMatchBetweenDetailPage"/>
-          <include name="setUp"/>
-          <include name="verifyCartIcon"/>
-          <include name="verifyAddtoCartFromProductPage"/>
-          <include name="verifyProductPriceMatchBetweenDetailPage"/>
-          <include name="verifyRemoveFromProductPage"/>
-          <include name="verifyMenuProduct"/>
-          <include name="verifyProductImageMatchBetweenDetailPage"/>
+          <include name="TearDown"/>
         </methods>
-      </class> <!-- com.nam.qa.practice.ProductTest -->
+      </class> <!-- com.nam.qa.practice.CheckOutTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
