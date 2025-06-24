@@ -5,11 +5,22 @@
     <classes>
       <class name="com.nam.qa.practice.ProductTest">
         <methods>
-          <include name="SetUp"/>
           <include name="verifyNavigationImgFromToDetailPage"/>
-          <include name="verifyNavigationFromTileToDetailPage"/>
-          <include name="setUp"/>
+          <include name="verifyAddtoCartFromDetailPage"/>
+          <include name="verifyProductDescriptionMatchBetweenDetailPage"/>
+          <include name="verifyButtonBackToProductFromDetailPage"/>
           <include name="TearDown"/>
+          <include name="SetUp"/>
+          <include name="verifyRemoveProductFromDetailPage"/>
+          <include name="verifyNavigationFromTileToDetailPage"/>
+          <include name="verifyProductNameMatchBetweenDetailPage"/>
+          <include name="setUp"/>
+          <include name="verifyCartIcon"/>
+          <include name="verifyAddtoCartFromProductPage"/>
+          <include name="verifyProductPriceMatchBetweenDetailPage"/>
+          <include name="verifyRemoveFromProductPage"/>
+          <include name="verifyMenuProduct"/>
+          <include name="verifyProductImageMatchBetweenDetailPage"/>
         </methods>
       </class> <!-- com.nam.qa.practice.ProductTest -->
     </classes>
