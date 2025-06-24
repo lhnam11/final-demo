@@ -5,14 +5,14 @@
 	</listeners>
 	<test name="Run All Tests">
 		<classes>
-			<!-- <class name="com.nam.qa.practice.SignInTest" />
+		    <class name="com.nam.qa.practice.SignInTest" />
 			<class name="com.nam.qa.practice.SortProductTest" />
 			<class name="com.nam.qa.practice.ProductTest" /> 
 			<class name="com.nam.qa.practice.CartTest" />
 			<class name="com.nam.qa.practice.CheckOutTest" />
 			<class name="com.nam.qa.practice.EndToEndTest" />
-			<class name="com.nam.qa.practice.SearchTest" />-->
-			<class name="com.nam.qa.practice.CheckOutTest" />
+			<class name="com.nam.qa.practice.SearchTest" />
+			
 		</classes>
 	</test>
 	

@@ -24,8 +24,8 @@ public class BaseClass {
 //		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 //		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 //		driver.manage().window().maximize();
-		System.setProperty("webdriver.gecko.driver", "D:\\LeHoaiNam\\Selenium\\geckodriver.exe");
-
+//		System.setProperty("webdriver.gecko.driver", "D:\\LeHoaiNam\\Selenium\\geckodriver.exe");
+//
 		FirefoxOptions options = new FirefoxOptions();
 		options.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe"); // chỉnh đúng đường dẫn
 
