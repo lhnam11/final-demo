@@ -79,37 +79,37 @@ public class CheckOutTest extends BaseClass {
 		validateHelper.ClickElement(driver.findElement(By.xpath("//input[@id='continue']")));
 		assertEquals(cartPage.getErrorMessage(), "Error: Postal Code is required");
 	}
-//	@Test(priority = 4)
-//	public void  verifyCannotCheckoutWithEmptyCart()
-//	{
-//		ValidateHelper validateHelper = new ValidateHelper(driver);
-//		validateHelper.ClickElement(driver.findElement(By.xpath("//a[@class='shopping_cart_link']")));
-//		int cartItems = driver.findElements(By.className("cart_item")).size();
-//		 assertEquals(cartItems, 0, "❌ Cart is not empty!");
-//		
-//		validateHelper.ClickElement(driver.findElement(By.xpath("//button[@id='checkout']")));
-//		
-//		validateHelper.setText(By.xpath("//input[@id='first-name']"), "Nam");
-//		
-//		validateHelper.setText(By.xpath("//input[@id='last-name']"), "Le");
-//		
-//		validateHelper.setText(By.xpath("//input[@id='postal-code']"), "500");
-//		
-//		validateHelper.ClickElement(driver.findElement(By.xpath("//input[@id='continue']")));
-//		
-//	    String url = driver.getCurrentUrl();
-//	    assertEquals(url, "https://www.saucedemo.com/checkout-step-one.html","❌ Checkout proceeded even with empty cart!");
-//		
-//		
-//		
-//		String getPrice = driver.findElement(By.xpath("//div[@class='summary_subtotal_label']")).getText().replace("$","").trim();
-//		
-//		Double itemTotal = Double.parseDouble(getPrice);
-//		
-//		Double tax = Double.parseDouble(driver.findElement(By.xpath("//div[@class='summary_tax_label']")).getText().replace("$","").trim());
-//		Double Total = itemTotal + tax;
-//		assertEquals(Total, 0);
-//	}
+	@Test(priority = 4)
+	public void  verifyCannotCheckoutWithEmptyCart()
+	{
+		ValidateHelper validateHelper = new ValidateHelper(driver);
+		validateHelper.ClickElement(driver.findElement(By.xpath("//a[@class='shopping_cart_link']")));
+		int cartItems = driver.findElements(By.className("cart_item")).size();
+		 assertEquals(cartItems, 0, "❌ Cart is not empty!");
+		
+		validateHelper.ClickElement(driver.findElement(By.xpath("//button[@id='checkout']")));
+		
+		validateHelper.setText(By.xpath("//input[@id='first-name']"), "Nam");
+		
+		validateHelper.setText(By.xpath("//input[@id='last-name']"), "Le");
+		
+		validateHelper.setText(By.xpath("//input[@id='postal-code']"), "500");
+		
+		validateHelper.ClickElement(driver.findElement(By.xpath("//input[@id='continue']")));
+		
+	    String url = driver.getCurrentUrl();
+	    assertEquals(url, "https://www.saucedemo.com/checkout-step-one.html","❌ Checkout proceeded even with empty cart!");
+		
+		
+		
+		String getPrice = driver.findElement(By.xpath("//div[@class='summary_subtotal_label']")).getText().replace("$","").trim();
+		
+		Double itemTotal = Double.parseDouble(getPrice);
+		
+		Double tax = Double.parseDouble(driver.findElement(By.xpath("//div[@class='summary_tax_label']")).getText().replace("$","").trim());
+		Double Total = itemTotal + tax;
+		assertEquals(Total, 0);
+	}
 	@Test(priority = 5)
 	public void verifyTotalAmountWithSingleProduct()
 	{
