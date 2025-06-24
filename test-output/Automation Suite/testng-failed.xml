@@ -6,23 +6,6 @@
   </listeners>
   <test thread-count="5" name="Run All Tests(failed)">
     <classes>
-      <class name="com.nam.qa.practice.ProductTest">
-        <methods>
-          <include name="SetUp"/>
-          <include name="verifyNavigationImgFromToDetailPage"/>
-          <include name="verifyNavigationFromTileToDetailPage"/>
-          <include name="setUp"/>
-          <include name="TearDown"/>
-        </methods>
-      </class> <!-- com.nam.qa.practice.ProductTest -->
-      <class name="com.nam.qa.practice.SignInTest">
-        <methods>
-          <include name="SetUp"/>
-          <include name="verifyLoginWithVisualUser_ShowsBrokenImage"/>
-          <include name="verifyProblemUserLogin_ShowsBrokenImages"/>
-          <include name="TearDown"/>
-        </methods>
-      </class> <!-- com.nam.qa.practice.SignInTest -->
       <class name="com.nam.qa.practice.CheckOutTest">
         <methods>
           <include name="verifyCannotCheckoutWithEmptyCart"/>

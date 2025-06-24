@@ -8,45 +8,15 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">33,018</td><td></td><td></td></tr>
+<tr><th colspan="8">Automation Suite</th></tr>
+<tr><td><a href="#t0">Run All Tests</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">30,919</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.nam.qa.practice.CheckOutTest</td><td><a href="#m0">verifyCannotCheckoutWithEmptyCart</a></td><td rowspan="1">1750733809044</td><td rowspan="1">998</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">com.nam.qa.practice.CheckOutTest</td><td><a href="#m1">verifyButtonBackHomeNavigatesBackToProductPage</a></td><td rowspan="1">1750733820349</td><td rowspan="1">1704</td></tr><tr class="passedeven"><td><a href="#m2">verifyCancelButtonNavigatesBackToCartPage</a></td><td rowspan="1">1750733801659</td><td rowspan="1">1080</td></tr><tr class="passedeven"><td><a href="#m3">verifyErrorMessageWhenFirstNameIsEmpty</a></td><td rowspan="1">1750733803421</td><td rowspan="1">1215</td></tr><tr class="passedeven"><td><a href="#m4">verifyErrorMessageWhenLastNameIsEmpty</a></td><td rowspan="1">1750733805290</td><td rowspan="1">1338</td></tr><tr class="passedeven"><td><a href="#m5">verifyErrorMessageWhenPostalCodeIsEmpty</a></td><td rowspan="1">1750733807276</td><td rowspan="1">1180</td></tr><tr class="passedeven"><td><a href="#m6">verifyMessageWhenCheckOutSuccessfully</a></td><td rowspan="1">1750733818135</td><td rowspan="1">1487</td></tr><tr class="passedeven"><td><a href="#m7">verifyTotalAmountWithMutipleProduct</a></td><td rowspan="1">1750733812993</td><td rowspan="1">4533</td></tr><tr class="passedeven"><td><a href="#m8">verifyTotalAmountWithSingleProduct</a></td><td rowspan="1">1750733810784</td><td rowspan="1">1439</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Run All Tests &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.nam.qa.practice.CheckOutTest</td><td><a href="#m0">verifyCannotCheckoutWithEmptyCart</a></td><td rowspan="1">1750734310816</td><td rowspan="1">1007</td></tr><tr><th colspan="4">Run All Tests &#8212; passed</th></tr><tr class="passedeven"><td rowspan="8">com.nam.qa.practice.CheckOutTest</td><td><a href="#m1">verifyButtonBackHomeNavigatesBackToProductPage</a></td><td rowspan="1">1750734321000</td><td rowspan="1">1705</td></tr><tr class="passedeven"><td><a href="#m2">verifyCancelButtonNavigatesBackToCartPage</a></td><td rowspan="1">1750734303309</td><td rowspan="1">1157</td></tr><tr class="passedeven"><td><a href="#m3">verifyErrorMessageWhenFirstNameIsEmpty</a></td><td rowspan="1">1750734305202</td><td rowspan="1">1253</td></tr><tr class="passedeven"><td><a href="#m4">verifyErrorMessageWhenLastNameIsEmpty</a></td><td rowspan="1">1750734307063</td><td rowspan="1">1251</td></tr><tr class="passedeven"><td><a href="#m5">verifyErrorMessageWhenPostalCodeIsEmpty</a></td><td rowspan="1">1750734309013</td><td rowspan="1">1230</td></tr><tr class="passedeven"><td><a href="#m6">verifyMessageWhenCheckOutSuccessfully</a></td><td rowspan="1">1750734319020</td><td rowspan="1">1448</td></tr><tr class="passedeven"><td><a href="#m7">verifyTotalAmountWithMutipleProduct</a></td><td rowspan="1">1750734314230</td><td rowspan="1">4273</td></tr><tr class="passedeven"><td><a href="#m8">verifyTotalAmountWithSingleProduct</a></td><td rowspan="1">1750734312402</td><td rowspan="1">1297</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.nam.qa.practice.CheckOutTest#verifyCannotCheckoutWithEmptyCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: ❌ Checkout proceeded even with empty cart! expected [https://www.saucedemo.com/checkout-step-one.html] but found [https://www.saucedemo.com/checkout-step-two.html]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
-	at org.testng.Assert.assertEquals(Assert.java:132)
-	at org.testng.Assert.assertEquals(Assert.java:656)
+<h2>Run All Tests</h2><h3 id="m0">com.nam.qa.practice.CheckOutTest#verifyCannotCheckoutWithEmptyCart</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: ❌ Checkout proceeded even with empty cart! expected [https://www.saucedemo.com/checkout-step-one.html] but found [https://www.saucedemo.com/checkout-step-two.html]
 	at com.nam.qa.practice.CheckOutTest.verifyCannotCheckoutWithEmptyCart(CheckOutTest.java:101)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m1">com.nam.qa.practice.CheckOutTest#verifyButtonBackHomeNavigatesBackToProductPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.nam.qa.practice.CheckOutTest#verifyCancelButtonNavigatesBackToCartPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">com.nam.qa.practice.CheckOutTest#verifyErrorMessageWhenFirstNameIsEmpty</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>

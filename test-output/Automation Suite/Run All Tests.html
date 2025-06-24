@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Run All Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>46/5/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>8/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Mon Jun 23 16:05:39 ICT 2025</td>
+<td>Started on:</td><td>Tue Jun 24 10:04:54 ICT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>155 seconds (155263 ms)</td>
+<tr><td>Total time:</td><td>30 seconds (30919 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -80,8 +80,8 @@ function toggleAllBoxes() {
 <td><div><pre>java.lang.AssertionError: ❌ Checkout proceeded even with empty cart! expected [https://www.saucedemo.com/checkout-step-one.html] but found [https://www.saucedemo.com/checkout-step-two.html]
 	at com.nam.qa.practice.CheckOutTest.verifyCannotCheckoutWithEmptyCart(CheckOutTest.java:101)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1608524967", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1608524967'><pre>java.lang.AssertionError: ❌ Checkout proceeded even with empty cart! expected [https://www.saucedemo.com/checkout-step-one.html] but found [https://www.saucedemo.com/checkout-step-two.html]
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace641449963", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace641449963'><pre>java.lang.AssertionError: ❌ Checkout proceeded even with empty cart! expected [https://www.saucedemo.com/checkout-step-one.html] but found [https://www.saucedemo.com/checkout-step-two.html]
 	at org.testng.Assert.fail(Assert.java:111)
 	at org.testng.Assert.failNotEquals(Assert.java:1590)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -115,162 +115,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 </pre></div></td>
-<td>0</td>
-<td>com.nam.qa.practice.CheckOutTest@3eb91815</td></tr>
-<tr>
-<td title='com.nam.qa.practice.SignInTest.verifyProblemUserLogin_ShowsBrokenImages()'><b>verifyProblemUserLogin_ShowsBrokenImages</b><br>Test class: com.nam.qa.practice.SignInTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
-	at com.nam.qa.practice.SignInTest.verifyProblemUserLogin_ShowsBrokenImages(SignInTest.java:90)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1659282412", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1659282412'><pre>java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)&quot; because &quot;this.wait&quot; is null
-	at com.nam.qa.practice.SignInTest.verifyProblemUserLogin_ShowsBrokenImages(SignInTest.java:90)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>com.nam.qa.practice.SignInTest@18317edc</td></tr>
-<tr>
-<td title='com.nam.qa.practice.ProductTest.verifyNavigationImgFromToDetailPage()'><b>verifyNavigationImgFromToDetailPage</b><br>Test class: com.nam.qa.practice.ProductTest</td>
-<td><div><pre>java.lang.AssertionError: ❌ Fail Page. tadaa Expected URL have contains &apos;inventory-item.html&apos; expected [true] but found [false]
-	at com.nam.qa.practice.ProductTest.verifyNavigationImgFromToDetailPage(ProductTest.java:271)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1991010480", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1991010480'><pre>java.lang.AssertionError: ❌ Fail Page. tadaa Expected URL have contains &apos;inventory-item.html&apos; expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.nam.qa.practice.ProductTest.verifyNavigationImgFromToDetailPage(ProductTest.java:271)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>com.nam.qa.practice.ProductTest@3b5fad2d</td></tr>
-<tr>
-<td title='com.nam.qa.practice.SignInTest.verifyLoginWithVisualUser_ShowsBrokenImage()'><b>verifyLoginWithVisualUser_ShowsBrokenImage</b><br>Test class: com.nam.qa.practice.SignInTest</td>
-<td><div><pre>java.lang.NullPointerException: Cannot invoke &quot;String.contains(java.lang.CharSequence)&quot; because &quot;imgSrc&quot; is null
-	at com.nam.qa.practice.SignInTest.verifyLoginWithVisualUser_ShowsBrokenImage(SignInTest.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace761229698", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace761229698'><pre>java.lang.NullPointerException: Cannot invoke &quot;String.contains(java.lang.CharSequence)&quot; because &quot;imgSrc&quot; is null
-	at com.nam.qa.practice.SignInTest.verifyLoginWithVisualUser_ShowsBrokenImage(SignInTest.java:122)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>com.nam.qa.practice.SignInTest@18317edc</td></tr>
-<tr>
-<td title='com.nam.qa.practice.ProductTest.verifyNavigationFromTileToDetailPage()'><b>verifyNavigationFromTileToDetailPage</b><br>Test class: com.nam.qa.practice.ProductTest</td>
-<td><div><pre>java.lang.AssertionError: ❌ Fail Page. Expected URL have contains &apos;inventory-item.html&apos; expected [true] but found [false]
-	at com.nam.qa.practice.ProductTest.verifyNavigationFromTileToDetailPage(ProductTest.java:258)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1537324590", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1537324590'><pre>java.lang.AssertionError: ❌ Fail Page. Expected URL have contains &apos;inventory-item.html&apos; expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:111)
-	at org.testng.Assert.failNotEquals(Assert.java:1590)
-	at org.testng.Assert.assertTrue(Assert.java:57)
-	at com.nam.qa.practice.ProductTest.verifyNavigationFromTileToDetailPage(ProductTest.java:258)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:741)
-	at org.testng.TestRunner.run(TestRunner.java:616)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-	at org.testng.TestNG.runSuites(TestNG.java:1112)
-	at org.testng.TestNG.run(TestNG.java:1079)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-</pre></div></td>
-<td>0</td>
-<td>com.nam.qa.practice.ProductTest@3b5fad2d</td></tr>
+<td>1</td>
+<td>com.nam.qa.practice.CheckOutTest@2235eaab</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -281,235 +127,45 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.nam.qa.practice.SearchTest.verifySearchByClickingSearchButton()'><b>verifySearchByClickingSearchButton</b><br>Test class: com.nam.qa.practice.SearchTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.SearchTest@102cec62</td></tr>
-<tr>
-<td title='com.nam.qa.practice.ProductTest.verifyRemoveProductFromDetailPage()'><b>verifyRemoveProductFromDetailPage</b><br>Test class: com.nam.qa.practice.ProductTest</td>
+<td title='com.nam.qa.practice.CheckOutTest.verifyErrorMessageWhenFirstNameIsEmpty()'><b>verifyErrorMessageWhenFirstNameIsEmpty</b><br>Test class: com.nam.qa.practice.CheckOutTest</td>
 <td></td>
 <td>1</td>
-<td>com.nam.qa.practice.ProductTest@3b5fad2d</td></tr>
-<tr>
-<td title='com.nam.qa.practice.ProductTest.verifyProductNameMatchBetweenDetailPage()'><b>verifyProductNameMatchBetweenDetailPage</b><br>Test class: com.nam.qa.practice.ProductTest</td>
-<td></td>
-<td>1</td>
-<td>com.nam.qa.practice.ProductTest@3b5fad2d</td></tr>
-<tr>
-<td title='com.nam.qa.practice.SearchTest.verifySearchWithUnicodeCharacters()'><b>verifySearchWithUnicodeCharacters</b><br>Test class: com.nam.qa.practice.SearchTest</td>
-<td></td>
-<td>4</td>
-<td>com.nam.qa.practice.SearchTest@102cec62</td></tr>
-<tr>
-<td title='com.nam.qa.practice.CartTest.verifyQuantityProduct()'><b>verifyQuantityProduct</b><br>Test class: com.nam.qa.practice.CartTest</td>
-<td></td>
-<td>2</td>
-<td>com.nam.qa.practice.CartTest@5e17553a</td></tr>
-<tr>
-<td title='com.nam.qa.practice.ProductTest.verifyProductDescriptionMatchBetweenDetailPage()'><b>verifyProductDescriptionMatchBetweenDetailPage</b><br>Test class: com.nam.qa.practice.ProductTest</td>
-<td></td>
-<td>1</td>
-<td>com.nam.qa.practice.ProductTest@3b5fad2d</td></tr>
-<tr>
-<td title='com.nam.qa.practice.ProductTest.verifyAddtoCartFromProductPage()'><b>verifyAddtoCartFromProductPage</b><br>Test class: com.nam.qa.practice.ProductTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.ProductTest@3b5fad2d</td></tr>
-<tr>
-<td title='com.nam.qa.practice.SearchTest.verifySearchWithEmptyKeyword()'><b>verifySearchWithEmptyKeyword</b><br>Test class: com.nam.qa.practice.SearchTest</td>
-<td></td>
-<td>3</td>
-<td>com.nam.qa.practice.SearchTest@102cec62</td></tr>
+<td>com.nam.qa.practice.CheckOutTest@2235eaab</td></tr>
 <tr>
 <td title='com.nam.qa.practice.CheckOutTest.verifyCancelButtonNavigatesBackToCartPage()'><b>verifyCancelButtonNavigatesBackToCartPage</b><br>Test class: com.nam.qa.practice.CheckOutTest</td>
 <td></td>
-<td>0</td>
-<td>com.nam.qa.practice.CheckOutTest@3eb91815</td></tr>
+<td>1</td>
+<td>com.nam.qa.practice.CheckOutTest@2235eaab</td></tr>
 <tr>
-<td title='com.nam.qa.practice.SignInTest.verifyLoginWithEmptyPassword()'><b>verifyLoginWithEmptyPassword</b><br>Test class: com.nam.qa.practice.SignInTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.SignInTest@18317edc</td></tr>
-<tr>
-<td title='com.nam.qa.practice.SortProductTest.verifyProductSortingByNameAscending()'><b>verifyProductSortingByNameAscending</b><br>Test class: com.nam.qa.practice.SortProductTest</td>
-<td></td>
-<td>2</td>
-<td>com.nam.qa.practice.SortProductTest@6531a794</td></tr>
-<tr>
-<td title='com.nam.qa.practice.CartTest.verifyProductIsAddedToCartSuccessfully()'><b>verifyProductIsAddedToCartSuccessfully</b><br>Test class: com.nam.qa.practice.CartTest</td>
-<td></td>
-<td>2</td>
-<td>com.nam.qa.practice.CartTest@5e17553a</td></tr>
-<tr>
-<td title='com.nam.qa.practice.ProductTest.verifyButtonBackToProductFromDetailPage()'><b>verifyButtonBackToProductFromDetailPage</b><br>Test class: com.nam.qa.practice.ProductTest</td>
+<td title='com.nam.qa.practice.CheckOutTest.verifyMessageWhenCheckOutSuccessfully()'><b>verifyMessageWhenCheckOutSuccessfully</b><br>Test class: com.nam.qa.practice.CheckOutTest</td>
 <td></td>
 <td>1</td>
-<td>com.nam.qa.practice.ProductTest@3b5fad2d</td></tr>
+<td>com.nam.qa.practice.CheckOutTest@2235eaab</td></tr>
 <tr>
-<td title='com.nam.qa.practice.CartTest.verifyRemoveProductFromCartPage()'><b>verifyRemoveProductFromCartPage</b><br>Test class: com.nam.qa.practice.CartTest</td>
+<td title='com.nam.qa.practice.CheckOutTest.verifyErrorMessageWhenPostalCodeIsEmpty()'><b>verifyErrorMessageWhenPostalCodeIsEmpty</b><br>Test class: com.nam.qa.practice.CheckOutTest</td>
 <td></td>
 <td>1</td>
-<td>com.nam.qa.practice.CartTest@5e17553a</td></tr>
+<td>com.nam.qa.practice.CheckOutTest@2235eaab</td></tr>
 <tr>
-<td title='com.nam.qa.practice.CheckOutTest.verifyErrorMessageWhenFirstNameIsEmpty()'><b>verifyErrorMessageWhenFirstNameIsEmpty</b><br>Test class: com.nam.qa.practice.CheckOutTest</td>
+<td title='com.nam.qa.practice.CheckOutTest.verifyTotalAmountWithSingleProduct()'><b>verifyTotalAmountWithSingleProduct</b><br>Test class: com.nam.qa.practice.CheckOutTest</td>
 <td></td>
-<td>0</td>
-<td>com.nam.qa.practice.CheckOutTest@3eb91815</td></tr>
-<tr>
-<td title='com.nam.qa.practice.SortProductTest.verifyProductSortingByPriceHighToLow()'><b>verifyProductSortingByPriceHighToLow</b><br>Test class: com.nam.qa.practice.SortProductTest</td>
-<td></td>
-<td>2</td>
-<td>com.nam.qa.practice.SortProductTest@6531a794</td></tr>
-<tr>
-<td title='com.nam.qa.practice.SearchTest.verifySearchWithValidKeyword()'><b>verifySearchWithValidKeyword</b><br>Test class: com.nam.qa.practice.SearchTest</td>
-<td></td>
-<td>4</td>
-<td>com.nam.qa.practice.SearchTest@102cec62</td></tr>
-<tr>
-<td title='com.nam.qa.practice.CartTest.verifyButtonContinueShopping()'><b>verifyButtonContinueShopping</b><br>Test class: com.nam.qa.practice.CartTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.CartTest@5e17553a</td></tr>
-<tr>
-<td title='com.nam.qa.practice.SignInTest.verifyLoginWithLockedOutUser()'><b>verifyLoginWithLockedOutUser</b><br>Test class: com.nam.qa.practice.SignInTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.SignInTest@18317edc</td></tr>
+<td>1</td>
+<td>com.nam.qa.practice.CheckOutTest@2235eaab</td></tr>
 <tr>
 <td title='com.nam.qa.practice.CheckOutTest.verifyButtonBackHomeNavigatesBackToProductPage()'><b>verifyButtonBackHomeNavigatesBackToProductPage</b><br>Test class: com.nam.qa.practice.CheckOutTest</td>
 <td></td>
 <td>1</td>
-<td>com.nam.qa.practice.CheckOutTest@3eb91815</td></tr>
-<tr>
-<td title='com.nam.qa.practice.EndToEndTest.verifyMessageWhenCheckOutSuccessfully()'><b>verifyMessageWhenCheckOutSuccessfully</b><br>Test class: com.nam.qa.practice.EndToEndTest</td>
-<td></td>
-<td>1</td>
-<td>com.nam.qa.practice.EndToEndTest@56dc1551</td></tr>
-<tr>
-<td title='com.nam.qa.practice.CheckOutTest.verifyErrorMessageWhenLastNameIsEmpty()'><b>verifyErrorMessageWhenLastNameIsEmpty</b><br>Test class: com.nam.qa.practice.CheckOutTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.CheckOutTest@3eb91815</td></tr>
-<tr>
-<td title='com.nam.qa.practice.SortProductTest.verifyProductSortingByPriceLowToHigh()'><b>verifyProductSortingByPriceLowToHigh</b><br>Test class: com.nam.qa.practice.SortProductTest</td>
-<td></td>
-<td>2</td>
-<td>com.nam.qa.practice.SortProductTest@6531a794</td></tr>
-<tr>
-<td title='com.nam.qa.practice.ProductTest.verifyProductImageMatchBetweenDetailPage()'><b>verifyProductImageMatchBetweenDetailPage</b><br>Test class: com.nam.qa.practice.ProductTest</td>
-<td></td>
-<td>1</td>
-<td>com.nam.qa.practice.ProductTest@3b5fad2d</td></tr>
-<tr>
-<td title='com.nam.qa.practice.ProductTest.verifyRemoveFromProductPage()'><b>verifyRemoveFromProductPage</b><br>Test class: com.nam.qa.practice.ProductTest</td>
-<td></td>
-<td>1</td>
-<td>com.nam.qa.practice.ProductTest@3b5fad2d</td></tr>
-<tr>
-<td title='com.nam.qa.practice.CartTest.verifyMenuCartPage()'><b>verifyMenuCartPage</b><br>Test class: com.nam.qa.practice.CartTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.CartTest@5e17553a</td></tr>
-<tr>
-<td title='com.nam.qa.practice.SignInTest.verifyLoginWithInvalidusername()'><b>verifyLoginWithInvalidusername</b><br>Test class: com.nam.qa.practice.SignInTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.SignInTest@18317edc</td></tr>
-<tr>
-<td title='com.nam.qa.practice.CheckOutTest.verifyTotalAmountWithSingleProduct()'><b>verifyTotalAmountWithSingleProduct</b><br>Test class: com.nam.qa.practice.CheckOutTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.CheckOutTest@3eb91815</td></tr>
-<tr>
-<td title='com.nam.qa.practice.SearchTest.verifySearchWithLongKeyword()'><b>verifySearchWithLongKeyword</b><br>Test class: com.nam.qa.practice.SearchTest</td>
-<td></td>
-<td>3</td>
-<td>com.nam.qa.practice.SearchTest@102cec62</td></tr>
-<tr>
-<td title='com.nam.qa.practice.ProductTest.verifyMenuProduct()'><b>verifyMenuProduct</b><br>Test class: com.nam.qa.practice.ProductTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.ProductTest@3b5fad2d</td></tr>
-<tr>
-<td title='com.nam.qa.practice.SignInTest.verifyLoginwithEmptyUserName()'><b>verifyLoginwithEmptyUserName</b><br>Test class: com.nam.qa.practice.SignInTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.SignInTest@18317edc</td></tr>
-<tr>
-<td title='com.nam.qa.practice.ProductTest.verifyCartIcon()'><b>verifyCartIcon</b><br>Test class: com.nam.qa.practice.ProductTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.ProductTest@3b5fad2d</td></tr>
-<tr>
-<td title='com.nam.qa.practice.CartTest.verifyButtonCheckout()'><b>verifyButtonCheckout</b><br>Test class: com.nam.qa.practice.CartTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.CartTest@5e17553a</td></tr>
-<tr>
-<td title='com.nam.qa.practice.CartTest.verifyProductNameMatchesBetweenProductAndCartPages()'><b>verifyProductNameMatchesBetweenProductAndCartPages</b><br>Test class: com.nam.qa.practice.CartTest</td>
-<td></td>
-<td>2</td>
-<td>com.nam.qa.practice.CartTest@5e17553a</td></tr>
-<tr>
-<td title='com.nam.qa.practice.SignInTest.verifyLoginWithValidCredentials()'><b>verifyLoginWithValidCredentials</b><br>Test class: com.nam.qa.practice.SignInTest</td>
-<td></td>
-<td>1</td>
-<td>com.nam.qa.practice.SignInTest@18317edc</td></tr>
-<tr>
-<td title='com.nam.qa.practice.CartTest.verifyProductPriceMatchesBetweenProductAndCartPages()'><b>verifyProductPriceMatchesBetweenProductAndCartPages</b><br>Test class: com.nam.qa.practice.CartTest</td>
-<td></td>
-<td>2</td>
-<td>com.nam.qa.practice.CartTest@5e17553a</td></tr>
-<tr>
-<td title='com.nam.qa.practice.ProductTest.verifyAddtoCartFromDetailPage()'><b>verifyAddtoCartFromDetailPage</b><br>Test class: com.nam.qa.practice.ProductTest</td>
-<td></td>
-<td>1</td>
-<td>com.nam.qa.practice.ProductTest@3b5fad2d</td></tr>
-<tr>
-<td title='com.nam.qa.practice.CheckOutTest.verifyMessageWhenCheckOutSuccessfully()'><b>verifyMessageWhenCheckOutSuccessfully</b><br>Test class: com.nam.qa.practice.CheckOutTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.CheckOutTest@3eb91815</td></tr>
-<tr>
-<td title='com.nam.qa.practice.CheckOutTest.verifyErrorMessageWhenPostalCodeIsEmpty()'><b>verifyErrorMessageWhenPostalCodeIsEmpty</b><br>Test class: com.nam.qa.practice.CheckOutTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.CheckOutTest@3eb91815</td></tr>
-<tr>
-<td title='com.nam.qa.practice.SignInTest.verifyLoginwithInvalidPassWord()'><b>verifyLoginwithInvalidPassWord</b><br>Test class: com.nam.qa.practice.SignInTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.SignInTest@18317edc</td></tr>
-<tr>
-<td title='com.nam.qa.practice.ProductTest.ProductListisDisplayed()'><b>ProductListisDisplayed</b><br>Test class: com.nam.qa.practice.ProductTest</td>
-<td></td>
-<td>0</td>
-<td>com.nam.qa.practice.ProductTest@3b5fad2d</td></tr>
-<tr>
-<td title='com.nam.qa.practice.CartTest.verifyProductDescriptionMatchesBetweenProductAndCartPages()'><b>verifyProductDescriptionMatchesBetweenProductAndCartPages</b><br>Test class: com.nam.qa.practice.CartTest</td>
-<td></td>
-<td>2</td>
-<td>com.nam.qa.practice.CartTest@5e17553a</td></tr>
-<tr>
-<td title='com.nam.qa.practice.SignInTest.verifyLoginWithPerformanceGlitchUser_TakesLonger()'><b>verifyLoginWithPerformanceGlitchUser_TakesLonger</b><br>Test class: com.nam.qa.practice.SignInTest</td>
-<td></td>
-<td>5</td>
-<td>com.nam.qa.practice.SignInTest@18317edc</td></tr>
-<tr>
-<td title='com.nam.qa.practice.SortProductTest.verifyProductSortingByNameDescending()'><b>verifyProductSortingByNameDescending</b><br>Test class: com.nam.qa.practice.SortProductTest</td>
-<td></td>
-<td>2</td>
-<td>com.nam.qa.practice.SortProductTest@6531a794</td></tr>
+<td>com.nam.qa.practice.CheckOutTest@2235eaab</td></tr>
 <tr>
 <td title='com.nam.qa.practice.CheckOutTest.verifyTotalAmountWithMutipleProduct()'><b>verifyTotalAmountWithMutipleProduct</b><br>Test class: com.nam.qa.practice.CheckOutTest</td>
 <td></td>
-<td>1</td>
-<td>com.nam.qa.practice.CheckOutTest@3eb91815</td></tr>
+<td>4</td>
+<td>com.nam.qa.practice.CheckOutTest@2235eaab</td></tr>
 <tr>
-<td title='com.nam.qa.practice.ProductTest.verifyProductPriceMatchBetweenDetailPage()'><b>verifyProductPriceMatchBetweenDetailPage</b><br>Test class: com.nam.qa.practice.ProductTest</td>
+<td title='com.nam.qa.practice.CheckOutTest.verifyErrorMessageWhenLastNameIsEmpty()'><b>verifyErrorMessageWhenLastNameIsEmpty</b><br>Test class: com.nam.qa.practice.CheckOutTest</td>
 <td></td>
 <td>1</td>
-<td>com.nam.qa.practice.ProductTest@3b5fad2d</td></tr>
+<td>com.nam.qa.practice.CheckOutTest@2235eaab</td></tr>
 </table><p>
 </body>
 </html>
