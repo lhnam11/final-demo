@@ -31,7 +31,7 @@ public class BaseClass {
 
 		driver = new FirefoxDriver(options);
 		driver.manage().window().maximize();
-
+//
 //		System.setProperty("webdriver.edge.driver", "D:\\LeHoaiNam\\Selenium\\msedgedriver.exe");
 //
 //		driver = new EdgeDriver();

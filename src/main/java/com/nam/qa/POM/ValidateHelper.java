@@ -18,7 +18,7 @@ public class ValidateHelper {
 	// hàm trùng với tên class là hàm xây dựng
 	public ValidateHelper(WebDriver driver) {
 		this.driver = driver;
-		wait = new WebDriverWait(driver,Duration.ofSeconds(5));
+		wait = new WebDriverWait(driver,Duration.ofSeconds(10));
 		js = (JavascriptExecutor) driver;
 	}
 
