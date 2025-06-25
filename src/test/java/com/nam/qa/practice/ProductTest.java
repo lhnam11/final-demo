@@ -257,7 +257,7 @@ public class ProductTest extends BaseClass {
         List<WebElement> productName = driver.findElements(By.className("inventory_item_name"));
         productName.get(i).click();
         String url = driver.getCurrentUrl(); 
-        assertTrue(url.contains("inventorwwy-item.html"),"❌ Fail Page. Expected URL have contains 'inventory-item.html'");
+        assertTrue(url.contains("inventory-item.html"),"❌ Fail Page. Expected URL have contains 'inventory-item.html'");
         driver.findElement(By.id("back-to-products")).click(); 
         Thread.sleep(2000);
 		}
@@ -270,7 +270,7 @@ public class ProductTest extends BaseClass {
         List<WebElement> productImg = driver.findElements(By.cssSelector(".inventory_item_img img"));
         productImg.get(i).click();
         String url = driver.getCurrentUrl(); 
-        assertTrue(url.contains("inventorwwy-item.html"),"❌ Fail Page. tadaa Expected URL have contains 'inventory-item.html'");
+        assertTrue(url.contains("inventory-item.html"),"❌ Fail Page. Expected URL have contains 'inventory-item.html'");
         driver.findElement(By.id("back-to-products")).click();
  
 		}
