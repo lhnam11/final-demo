@@ -43,14 +43,15 @@ public class ProductTest extends BaseClass {
 	@Story("Check list product is displayed")
 	@Test(priority = 0)
 	@Severity(SeverityLevel.CRITICAL)
-	public void ProductListisDisplayed() {
+	public void ProductListisDisplayed() throws Exception {
 		List<WebElement> productlist = driver.findElements(By.className("inventory_item"));
 
 		assertTrue(productlist.size() > 0, "No product found after loggin in");
+		Thread.sleep(2000);
 	}
 
 	@Test(priority = 1)
-	public void verifyProductNameMatchBetweenDetailPage() {
+	public void verifyProductNameMatchBetweenDetailPage() throws Exception {
 		int productCount = driver.findElements(By.className("inventory_item_name")).size();
 		for (int i = 0; i < productCount; i++) {
 			List<WebElement> productList = driver.findElements(By.className("inventory_item_name"));
@@ -70,6 +71,7 @@ public class ProductTest extends BaseClass {
 			driver.findElement(By.id("back-to-products")).click();
 
 		}
+		Thread.sleep(2000);
 	}
 
 	@Test(priority = 2)

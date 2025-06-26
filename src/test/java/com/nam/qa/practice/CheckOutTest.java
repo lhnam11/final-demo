@@ -19,8 +19,8 @@ import io.qameta.allure.Feature;
 import io.qameta.allure.Story;
 
 @Listeners({ io.qameta.allure.testng.AllureTestNg.class })
-@Epic("Cart Page")
-@Feature("Cart Page Functionality")
+@Epic("Checkout Page")
+@Feature("Checkout Page Functionality")
 public class CheckOutTest extends BaseClass {
 	private SignInPage  signInPage;
 	private ValidateHelper validateHelper;
@@ -42,7 +42,7 @@ public class CheckOutTest extends BaseClass {
 		assertEquals(url, "https://www.saucedemo.com/cart.html");	
 	}
 	@Test(priority = 1)
-	public void verifyErrorMessageWhenFirstNameIsEmpty()
+	public void verifyErrorMessageWhenFirstNameIsEmpty() throws Exception
 	{
 		ValidateHelper validateHelper = new ValidateHelper(driver);
 		CartPage cartPage = new CartPage(driver);
@@ -52,7 +52,7 @@ public class CheckOutTest extends BaseClass {
 		validateHelper.setText(By.xpath("//input[@id='postal-code']"), "123");
 		validateHelper.ClickElement(driver.findElement(By.xpath("//input[@id='continue']")));
 		assertEquals(cartPage.getErrorMessage(), "Error: First Name is required");
-		
+		Thread.sleep(2000);
 	}
 	@Test(priority = 2)
 	public void verifyErrorMessageWhenLastNameIsEmpty()
@@ -180,7 +180,7 @@ public class CheckOutTest extends BaseClass {
 	@Epic("End-to-End Flow")
 	@Description("This test verifies that the user can complete the checkout flow from adding to cart to seeing confirmation message.")
 	@Test(priority = 7, groups = "end-to-end")
-	public void verifyMessageWhenCheckOutSuccessfully() {
+	public void verifyMessageWhenCheckOutSuccessfully() throws Exception {
 		ValidateHelper validateHelper = new ValidateHelper(driver);
 		driver.findElement(By.xpath("//button[contains(text(),'Add to cart')]")).click();
 		
@@ -199,9 +199,10 @@ public class CheckOutTest extends BaseClass {
 		
 	    String checkOutComplete = driver.findElement(By.className("complete-header")).getText();
 	    assertEquals(checkOutComplete, "Thank you for your order!");
+	    Thread.sleep(2000);
 	}
 	@Test(priority = 8)
-	public void verifyButtonBackHomeNavigatesBackToProductPage()
+	public void verifyButtonBackHomeNavigatesBackToProductPage() throws Exception
 	{
 		ValidateHelper validateHelper = new ValidateHelper(driver);
 		driver.findElement(By.xpath("//button[contains(text(),'Add to cart')]")).click();
@@ -225,7 +226,7 @@ public class CheckOutTest extends BaseClass {
 		
 		assertEquals(getUrl,"https://www.saucedemo.com/inventory.html","Button BackHome Fail");
 		
-		
+		Thread.sleep(2000);
 	}
     
 }

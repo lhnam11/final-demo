@@ -38,6 +38,7 @@ public class SignInTest extends BaseClass {
 		signInPage.signin("standard_user", "secret_sauce");
 		String currentUrl = driver.getCurrentUrl();
 		assertTrue(currentUrl.contains("inventory.html"), "Login Failed");
+		Thread.sleep(2000);
 	}
 
 	@Test(priority = 1)
@@ -47,6 +48,7 @@ public class SignInTest extends BaseClass {
 		signInPage.signin("wewe", "secret_sauce");
 		assertEquals(signInPage.getErrorMessage(),
 				"Epic sadface: Username and password do not match any user in this service");
+		Thread.sleep(2000);
 	}
 
 	@Test(priority = 2)
@@ -56,6 +58,7 @@ public class SignInTest extends BaseClass {
 		signInPage.signin("standard_user", "avcv");
 		assertEquals(signInPage.getErrorMessage(),
 				"Epic sadface: Username and password do not match any user in this service");
+		Thread.sleep(2000);
 	}
 
 	@Test(priority = 3)
@@ -64,6 +67,7 @@ public class SignInTest extends BaseClass {
 		driver.get("https://www.saucedemo.com/");
 		signInPage.signin("", "secret_sauce");
 		assertEquals(signInPage.getErrorMessage(), "Epic sadface: Username is required");
+		Thread.sleep(2000);
 	}
 
 	@Test(priority = 4)
