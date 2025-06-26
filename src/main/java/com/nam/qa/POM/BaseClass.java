@@ -24,18 +24,18 @@ public class BaseClass {
 //		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 //		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 //		driver.manage().window().maximize();
-//		System.setProperty("webdriver.gecko.driver", "D:\\LeHoaiNam\\Selenium\\geckodriver.exe");
-//
-//		FirefoxOptions options = new FirefoxOptions();
-//		options.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe"); // chỉnh đúng đường dẫn
-//
-//		driver = new FirefoxDriver(options);
-//		driver.manage().window().maximize();
-////
-		System.setProperty("webdriver.edge.driver", "D:\\LeHoaiNam\\Selenium\\msedgedriver.exe");
+		System.setProperty("webdriver.gecko.driver", "D:\\LeHoaiNam\\Selenium\\geckodriver.exe");
 
-		driver = new EdgeDriver();
+		FirefoxOptions options = new FirefoxOptions();
+		options.setBinary("C:\\Program Files\\Mozilla Firefox\\firefox.exe"); // chỉnh đúng đường dẫn
+
+		driver = new FirefoxDriver(options);
 		driver.manage().window().maximize();
+
+//		System.setProperty("webdriver.edge.driver", "D:\\LeHoaiNam\\Selenium\\msedgedriver.exe");
+//
+//		driver = new EdgeDriver();
+//		driver.manage().window().maximize();
 
 //
 //		EdgeOptions options = new EdgeOptions();
